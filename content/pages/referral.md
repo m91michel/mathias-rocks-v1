@@ -15,16 +15,15 @@ Ich habe auch paar Seiten angegeben, bei denen nur ich einen Bonus erhalte (mit 
 - [WeltSparen](www.weltsparen.de?p=eyJzIjoiVkZqZ3JhRGVrdVNlMldKcG1LX00tUVNvMGZBIiwidiI6MSwicCI6IntcInVcIjozMDEzOTc1NyxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy53ZWx0c3BhcmVuLmRlXFxcL2t1bmRlbi13ZXJiZW5cXFwvP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT10cmFuc2FjdGlvbmFsJnV0bV9jYW1wYWlnbj1tYW5kcmlsbF9kZS1yYWYtcmVjb21tZW5kYXRpb24tb2ZmZXJ0YWJsZVwiLFwiaWRcIjpcIjY1ZGY2NzA2ODBiYjRhYjhiOTU2ODE5YzU3ZWZjMjE2XCIsXCJ1cmxfaWRzXCI6W1wiNTlhYTFjNDcxZTNkZWMxNmI0YWE4OGY4MWEzYjJkYTU2YjA4NDFlNlwiXX0ifQ) - Wir bekommen beide 50€. Du musst aber 5000€ dort für 6 Monate bei einem Produkt hinterlegen.
 - [Bondora](https://bondora.com/ref/mathiasm10) - Du bekommst 5€ startguthaben und mein Bonus ist abhängig von deinem Investierten Betrag
 - [Mintos](https://www.mintos.com/de/l/ref/C60M64) - Wir bekommen beide eine Boni, abhängig von deinem Investierten Betrag
-- [Curve](https://www.curve.com/join#NV53K3PN) - Wir beide erhalten einen 5¢ als Bonus
+- [Curve](https://www.curve.com/join#NV53K3PN) - Wir beide erhalten einen 20¢ als Bonus
 
 ## Crypto
 - [Bitpanda](https://www.bitpanda.com/?ref=1744922665805272769) - Wir erhalten beide 10€, wenn du mind. 25€ tradest.
-- [Bitwala](https://app.bitwala.com/r/MBVJ-89RF) - Wir erhalten beide 15€ nachdem du deinen ersten Trade.
+- [Nuri](https://app.nuri.com/r/MBVJ-89RF) (Ex Bitwala) - Wir erhalten beide 30€ nach deinem ersten Trade.
 - [Crypto.com](https://crypto.com/app/byjhe4vd6c) - Wir bekommen beide $25 USD, wenn du 2500 CRO stakest.
-- [Bitwala](https://app.bitwala.com/r/MBVJ-89RF) - Wir erhalten beide 15€
-- [Pool by Cake](https://pool.cakedefi.com/#?ref=624360) - Wir erhalten beide einen 10 USD Bonus
+- [Pool by Cake](https://pool.cakedefi.com/#?ref=624360) - Wir erhalten beide einen 20 USD Bonus
 - [BlockFi](https://blockfi.com/?ref=87125bfa) - Wir bekommen beide 10€, wenn du 100€ hinterlegst.
-- [Coinbase](coinbase.com/join/michel_c0u?src=ios-link) - Wir erhalten beide ca. 8€ als startbonus, wenn du über 80€ tradest.
+- [Coinbase](https://www.coinbase.com/join/michel_c0u) - Wir erhalten beide ca. 8€ als startbonus, wenn du über 80€ tradest.
 - [Binance](https://www.binance.com/en/register?ref=S6SM0KGZ) - Wir erhalten beide 10% Commission. Komm am besten auf mich zu, um zu erfahren wie das genau funktioniert.
 
 ## Mobilität
