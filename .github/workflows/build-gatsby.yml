@@ -33,12 +33,12 @@ jobs:
       run: yarn run build
     
     - name: Build
-      run: echo "${{ github.actor }}"
+      run: echo "${{ secrets.MY_GH_TOKEN }}"
 
-  - uses: ahmadnassri/action-dependabot-auto-merge@v2
+    - uses: ahmadnassri/action-dependabot-auto-merge@v2
       with:
         target: minor
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.MY_GH_TOKEN }}
 
   # automerge:
   #   needs: build
