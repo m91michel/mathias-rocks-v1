@@ -35,7 +35,7 @@ jobs:
     - name: Build
       run: echo "${{ github.actor }}"
 
-  - uses: ahmadnassri/action-dependabot-auto-merge@v2
+    - uses: ahmadnassri/action-dependabot-auto-merge@v2
       with:
         target: minor
         github-token: ${{ secrets.GITHUB_TOKEN }}
