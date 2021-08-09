@@ -6434,10 +6434,10 @@ gatsby-graphiql-explorer@^1.11.0:
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-gatsby-image@^3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-3.10.0.tgz#f4013561736c0baef8c0ba2c72b760de78bc1b28"
-  integrity sha512-bbBqR2sY5wWt0qPAyV0Q2RJwy9Gd9Z+cs/go3XZDl/8XktyWSL2znoUPZfBJ1jnJ6VvbyqhDvmr7vM3zM70Xfw==
+gatsby-image@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-3.11.0.tgz#9070ffd1e656b801052acfa9e470c34427c099e0"
+  integrity sha512-vRMhGLrgyQRH2RYs8leyZ1UyWYIew+NOZEsKur1w6gnWDf0U9UVmYFa9OIE1Vedlo1W+on3AuZ3/KwM+cI69VQ==
   dependencies:
     "@babel/runtime" "^7.14.6"
     object-fit-images "^3.2.4"
@@ -6495,14 +6495,14 @@ gatsby-plugin-google-analytics@^3.10.0:
     minimatch "3.0.4"
     web-vitals "^1.1.2"
 
-gatsby-plugin-manifest@^3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.10.0.tgz#87ce4383b938b06a9346610b9e4bd0cccd72c15a"
-  integrity sha512-vx5bZDxEUYgXYXo4OqMJ+affCUi6mDhgT39Oppy1hBMkwYeNQKeiP8mJ77kRqlGUX44rsTJ4/bD2qvJgJLHaMQ==
+gatsby-plugin-manifest@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.11.0.tgz#9dfc08f3573636edb7eba904291da9ca482524f4"
+  integrity sha512-ZeM8OmolC9rcOVa76PdpSM0Q3vfUBzyztqW/30Ax9VGx0JiE+LeMnjsApCWWU9wXCiZUncc2UgDrJDad7dMbeQ==
   dependencies:
     "@babel/runtime" "^7.14.6"
-    gatsby-core-utils "^2.10.0"
-    gatsby-plugin-utils "^1.10.0"
+    gatsby-core-utils "^2.11.0"
+    gatsby-plugin-utils "^1.11.0"
     semver "^7.3.5"
     sharp "^0.28.3"
 
@@ -6794,13 +6794,13 @@ gatsby-telemetry@^2.10.0, gatsby-telemetry@^2.11.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-transformer-remark@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-4.7.0.tgz#ceff7c1a211d7620d60a1b5f1de7af0c5c2c3f7c"
-  integrity sha512-zZLMeGY/RAzT25c0fU/InGiIE47+Dx/pjwCcQN9SE5nib4eATVM3GjH8HeIYkzsvXRF2Qd0hj++H/enBojhJIQ==
+gatsby-transformer-remark@^4.8.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-4.8.0.tgz#af9c6446add3d4b93e8050ec816c8b1316396fb3"
+  integrity sha512-frnD8BWuiv6y4kliYaiZYXB7mbcG2ogJxckfZL4hlyYStU1nV6jNMOBPTLdLnD42l/G/c1uX9s8J5AzOF6Uw4w==
   dependencies:
     "@babel/runtime" "^7.14.6"
-    gatsby-core-utils "^2.10.0"
+    gatsby-core-utils "^2.11.0"
     gray-matter "^4.0.2"
     hast-util-raw "^6.0.2"
     hast-util-to-html "^7.1.2"
