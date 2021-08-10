@@ -31,21 +31,21 @@ jobs:
 
     - name: Build
       run: yarn run build
-    
+
+  automerge:
+    needs: build
+    # if: github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
     - name: Build
-      run: echo "Test ${{ secrets.TEST }}"
+      run: echo "MY_GH_TOKEN ${{ secrets.MY_GH_TOKEN }}"
 
     - uses: ahmadnassri/action-dependabot-auto-merge@v2
       with:
         target: minor
-        github-token: ${{ secrets.TEST }}
-
-  # automerge:
-  #   needs: build
-  #   if: github.actor == 'dependabot[bot]'
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: fastify/github-action-merge-dependabot@v2.0.0
-  #       with:
-  #         github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.MY_GH_TOKEN }}
+    
+    # - uses: fastify/github-action-merge-dependabot@v2.0.0
+    #   with:
+    #     github-token: ${{ secrets.GITHUB_TOKEN }}
 
