@@ -33,7 +33,7 @@ jobs:
       run: yarn run build
     
     - name: Build
-      run: echo "${{ secrets.TEST }}"
+      run: echo "Test ${{ secrets.TEST }}"
 
     - uses: ahmadnassri/action-dependabot-auto-merge@v2
       with:
