@@ -7,46 +7,51 @@
 $primary-color: #2980b9;
 $secondary-color: #6dd5fa;
 
+p a,
+li a {
+  color: $primary-color !important;
+}
+
 .gradientBg {
-	display: flex;
-	background: linear-gradient(to right, $primary-color, $secondary-color);
+  display: flex;
+  background: linear-gradient(to right, $primary-color, $secondary-color);
 }
 
 .center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
-	display: flex;
-	padding: 1.5rem 1.5rem;
-	line-height: 1.5rem;
-	a {
-		border-bottom: 1px solid;
-		color: black;
-	}
-	a:hover {
-		color: $secondary-color;
-	}
+  display: flex;
+  padding: 1.5rem 1.5rem;
+  line-height: 1.5rem;
+  a {
+    border-bottom: 1px solid;
+    color: black;
+  }
+  a:hover {
+    color: $secondary-color;
+  }
 }
 
 .content {
-    max-width: 956px;
-    margin: 0 auto;
+  max-width: 956px;
+  margin: 0 auto;
 }
 
 .unset-button {
-	background-color: unset;
-	border: unset;
-	outline: unset;
+  background-color: unset;
+  border: unset;
+  outline: unset;
 }
 
 .social-button {
-    padding: 20px;
-    margin: 5px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    border: solid 1px;
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border: solid 1px;
 }
