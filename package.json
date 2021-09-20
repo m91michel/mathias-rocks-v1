@@ -25,7 +25,7 @@
     "bulma": "^0.9.3",
     "gatsby": "^3.13.1",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-feed": "^3.13.0",
+    "gatsby-plugin-feed": "^3.14.0",
     "gatsby-plugin-google-analytics": "^3.14.0",
     "gatsby-plugin-manifest": "^3.14.0",
     "gatsby-plugin-markdown-pages": "^1.0.3",
