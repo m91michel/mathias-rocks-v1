@@ -16,6 +16,7 @@ Ich habe auch paar Seiten angegeben, bei denen nur ich einen Bonus erhalte (mit 
 - [Bondora](https://bondora.com/ref/mathiasm10) - Du bekommst 5€ startguthaben und mein Bonus ist abhängig von deinem Investierten Betrag
 - [Mintos](https://www.mintos.com/de/l/ref/C60M64) - Wir bekommen beide eine Boni, abhängig von deinem Investierten Betrag
 - [Curve](https://www.curve.com/join#NV53K3PN) - Wir beide erhalten einen 20¢ als Bonus
+- [Revolut](https://revolut.com/referral/mathia9rpo!SEP1AR) - Keine ahnung was gerade die aktuelle Aktion ist :D
 
 ## Crypto
 - [Bitpanda](https://www.bitpanda.com/?ref=1744922665805272769) - Wir erhalten beide 10€, wenn du mind. 25€ tradest.
