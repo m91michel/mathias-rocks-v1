@@ -27,6 +27,7 @@ Ich habe auch paar Seiten angegeben, bei denen nur ich einen Bonus erhalte (mit 
 - [Coinbase](https://www.coinbase.com/join/michel_c0u) - Wir erhalten beide ca. 8€ als startbonus, wenn du über 80€ tradest.
 - [Binance](https://www.binance.com/en/register?ref=S6SM0KGZ) - Wir erhalten beide 10% Commission. Komm am besten auf mich zu, um zu erfahren wie das genau funktioniert.
 - [Bison App](https://join.bisonapp.com/zasyk7) - Wir erhalten beide 15€ sobald du für über 50€ tradest.
+- [Bittrex](https://bittrex.com/account/register?referralCode=P0L-UPG-MBR) - Erhalte 10% Rabat auf Gebühren.
 
 ## Mobilität
 - [Emmy](http://onelink.to/emmy) - Benutze 7cJa3k1v und wir bekommen beide 15 Freiminuten
@@ -39,8 +40,13 @@ Ich habe auch paar Seiten angegeben, bei denen nur ich einen Bonus erhalte (mit 
 ## Marketplaces
 - [fiverr.com](http://www.fiverr.com/s2/8899f1392f) - Du erhältst einen Rabatt auf deinen ersten Kauf und ich erhalte 20% provision.
 
-## Mobilfunk
+## Weiteres
 - [Fraenk](https://2ekq.adj.st/mgm?campaign=302199764&friend=3ZN34sFhGOqHPrpQ&adjust_t=u66g7hl&adjust_fallback=https%3A%2F%2Fwww.fraenk.de&allowReattribution=true&adj_campaign=mgm) - Über links anmelden. Ich erhalte eine 30€ Gutschrift und du bekommst 1 GB extra.
+- [honeygain](https://r.honeygain.me/MATH92FAB5) - Erhalte einen Willkommensbonus von 5€. Honeygain ist ein Netzwerk wo du deine Internetverbindung für Unternehmen teilst und dabei vergütet wirst. 
+
+## Coupon Profile
+- [referall.codes](https://www.referall.codes/de/users/4654)
+- [topparrain.com](https://www.topparrain.com/de/users/124568)
 
 ## Hinweis
 Der Bonus kann sich bei jedem Anbieter ändern und da ich die Seite in unregelmäßig abständen update, können die Angaben veraltet sein. Du kannst aber jeder Zeit auf mich zukommen :)
