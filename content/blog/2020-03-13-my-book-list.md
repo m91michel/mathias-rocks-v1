@@ -6,26 +6,35 @@ keywords: [my reading list, books, learning]
 tags: [personal]
 ---
 
-This blog post is updated regularly and contains a list of books I have already read or books that are on my todo list. The given links all lead to Amazon.(Last update 19-02-2021)
+This blog post is updated regularly and contains a list of books I have already read or books that are on my todo list. The given links all lead to Amazon.(Last update 31-01-2022)
 
 ## Finished Books
 
-- [Rich Dad Poor Dad - Robert T. Kiyosaki](https://www.amazon.de/-/en/Rich-Dad-Poor-Teach-Middle/dp/1612680194/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587291564&sr=1-2)
-- [Cashflow Quadrant: Rich dad poor dad](https://www.amazon.de/Cashflow-Quadrant-Rich-dad-poor/dp/3898798836/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=2TBWBFU6YN2V9&dchild=1&keywords=cashflow+quadrant&qid=1609365535&sprefix=cashflow%2Caps%2C185&sr=8-1)
-- [Solopreneur - Ehrenfried Conta Gromberg](https://www.amazon.de/-/en/Ehrenfried-Conta-Gromberg/dp/3943895076/ref=sr_1_1?dchild=1&keywords=Solopreneur&qid=1587291524&s=books&sr=1-1)
-- [BLOCKCHAIN 2.0 - Dr. Julian Hosp](https://www.amazon.de/-/en/BLOCKCHAIN-2-0-simply-explained-Bitcoin/dp/1798916983/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587291674&sr=8-2)
-- [Die Gesetze der Gewinner - Bodo Schäfer](https://www.amazon.de/-/en/Bodo-Sch%C3%A4fer/dp/3423340487/ref=sr_1_1?crid=24HPEX73PMHRD&dchild=1&keywords=die+gesetze+der+gewinner&qid=1587293369&s=books&sprefix=die+ges%2Cstripbooks%2C157&sr=1-1)
-- [The Big Five for Life - John Strelecky](https://www.amazon.de/-/en/Big-Five-Life-wirklich-z%C3%A4hlt/dp/3423345284/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587293396&sr=1-1)
-- [Agile Retrospectives - Esther Derby](https://www.amazon.de/-/en/dp/B00B03SRJW/ref=sr_1_1?dchild=1&keywords=retrospectives&qid=1587293536&sr=8-1)
-- [Wie man freunde Gewinnt - Dale Carnegie](https://www.amazon.de/Wie-man-Freunde-gewinnt-einflussreich/dp/3596190533/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Wie+man+freunde+Gewinnt&qid=1613774078&quartzVehicle=69-1541&replacementKeywords=wie+freunde+gewinnt&sr=8-1)
-- [Life Is What You Make It: Find Your Own Path to Fulfillment - Peter Buffett](https://www.amazon.de/Life-What-You-Make-Fulfillment/dp/0307464725/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Life+is+What+you+make+it&qid=1613774104&quartzVehicle=842-235&replacementKeywords=life+what+you+make+it&sr=8-1)
-- [Die 4-Stunden-Woche: Mehr Zeit, mehr Geld, mehr Leben - Timothy Ferriss](https://www.amazon.de/Die-4-Stunden-Woche-Mehr-Zeit-Leben/dp/3548375960/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=4+Stunden+Woche&qid=1613774166&quartzVehicle=812-409&replacementKeywords=stunden+woche&sr=8-1)
-- [Das 4-Stunden-Startup: Wie Sie Ihre Träume verwirklichen, ohne zu kündigen - Felix Plötz](https://www.amazon.de/Das-4-Stunden-Startup-Tr%C3%A4ume-verwirklichen-k%C3%BCndigen/dp/3430202027/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=4+Stunden+Startup&qid=1613774220&quartzVehicle=812-409&replacementKeywords=stunden+startup&sr=8-1)
+- [Rich Dad Poor Dad by Robert T. Kiyosaki](https://www.amazon.de/-/en/Rich-Dad-Poor-Teach-Middle/dp/1612680194/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587291564&sr=1-2) - [free on Spotify](https://open.spotify.com/artist/4mLAOPij255jqfnthGV59P)
+- [Cashflow Quadrant by Robert T. Kiyosaki](https://www.amazon.de/Cashflow-Quadrant-Rich-dad-poor/dp/3898798836/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=2TBWBFU6YN2V9&dchild=1&keywords=cashflow+quadrant&qid=1609365535&sprefix=cashflow%2Caps%2C185&sr=8-1) - [free on Spotify](https://open.spotify.com/artist/4mLAOPij255jqfnthGV59P)
+- [Solopreneur by Ehrenfried Conta Gromberg](https://www.amazon.de/-/en/Ehrenfried-Conta-Gromberg/dp/3943895076/ref=sr_1_1?dchild=1&keywords=Solopreneur&qid=1587291524&s=books&sr=1-1)
+- [BLOCKCHAIN 2.0 by Dr. Julian Hosp](https://www.amazon.de/-/en/BLOCKCHAIN-2-0-simply-explained-Bitcoin/dp/1798916983/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587291674&sr=8-2)
+- [Die Gesetze der Gewinner by Bodo Schäfer](https://www.amazon.de/-/en/Bodo-Sch%C3%A4fer/dp/3423340487/ref=sr_1_1?crid=24HPEX73PMHRD&dchild=1&keywords=die+gesetze+der+gewinner&qid=1587293369&s=books&sprefix=die+ges%2Cstripbooks%2C157&sr=1-1)
+- [The Big Five for Life by John Strelecky](https://www.amazon.de/-/en/Big-Five-Life-wirklich-z%C3%A4hlt/dp/3423345284/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587293396&sr=1-1)
+- [Agile Retrospectives by Esther Derby](https://www.amazon.de/-/en/dp/B00B03SRJW/ref=sr_1_1?dchild=1&keywords=retrospectives&qid=1587293536&sr=8-1)
+- [Das 4-Stunden-Startup: Wie Sie Ihre Träume verwirklichen, ohne zu kündigen by Felix Plötz](https://www.amazon.de/Das-4-Stunden-Startup-Tr%C3%A4ume-verwirklichen-k%C3%BCndigen/dp/3430202027/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=4+Stunden+Startup&qid=1613774220&quartzVehicle=812-409&replacementKeywords=stunden+startup&sr=8-1)
+- [Wie man freunde Gewinnt by Dale Carnegie](https://www.amazon.de/Wie-man-Freunde-gewinnt-einflussreich/dp/3596190533/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Wie+man+freunde+Gewinnt&qid=1613774078&quartzVehicle=69-1541&replacementKeywords=wie+freunde+gewinnt&sr=8-1)
+
+**2021**
+- [Life Is What You Make It: Find Your Own Path to Fulfillment by Peter Buffett](https://www.amazon.de/Life-What-You-Make-Fulfillment/dp/0307464725/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Life+is+What+you+make+it&qid=1613774104&quartzVehicle=842-235&replacementKeywords=life+what+you+make+it&sr=8-1)
+- [Die 4-Stunden-Woche: Mehr Zeit, mehr Geld, mehr Leben by Timothy Ferriss](https://www.amazon.de/Die-4-Stunden-Woche-Mehr-Zeit-Leben/dp/3548375960/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=4+Stunden+Woche&qid=1613774166&quartzVehicle=812-409&replacementKeywords=stunden+woche&sr=8-1)
+- [The Timehorizon Principle by Dr. Julian Hosp](https://www.amazon.de/-/en/TIMEHORIZON-PRINZIP-Zeitmanagement-Hacks-Produktivit%C3%A4ts-Tricks-erfolgreichsten/dp/9881485010/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587291841&sr=1-1)
+- [Komplexithoden by Niels Pfläging](https://www.amazon.de/Komplexithoden-Clevere-Belebung-Unternehmen-Komplexit%C3%A4t/dp/3868815864/ref=sr_1_1?keywords=komplexithoden&qid=1643699174&s=books&sprefix=komplexi%2Cstripbooks%2C163&sr=1-1)
+- [Thinking in bets by Annie Duke](https://www.amazon.de/Thinking-Bets-Making-Smarter-Decisions/dp/0735216371/ref=sr_1_1?keywords=thinking+in+bets&qid=1643699209&s=books&sprefix=thinking+in+b%2Cstripbooks%2C120&sr=1-1)
+- [The One Thing by Gary Keller](https://www.amazon.com/The-One-Thing/dp/386881681X) - December
+
+**2022**
+- [10xDNA by Frank Thelen](https://www.amazon.com/10xDNA-Mindset-Thriving-Frank-Thelen-ebook/dp/B08NYQDBQT/ref=sr_1_1?crid=178CPQW5OGYM&keywords=10xdna&qid=1643655225&s=books&sprefix=10xdn%2Cstripbooks-intl-ship%2C258&sr=1-1) - January
+- [Das Café am Rande der Welt by Strelecky John](https://www.amazon.com/Cafe-Edge-World-Story-Meaning/dp/0991392051/ref=pd_sim_1/146-6201825-2124523?pd_rd_w=Z2d0v&pf_rd_p=dee70060-7c6d-4721-a321-50a27281cd22&pf_rd_r=GCB1SWB1RCJPH8WR66KH&pd_rd_r=c9669535-a660-4eb5-adfa-acdbee28ca4d&pd_rd_wg=LOp7g&pd_rd_i=0991392051&psc=1) - January
 
 ## On my todo list
 
 - [The Laws of Human Nature - Robert Greene](https://www.amazon.de/-/en/Laws-Human-Nature-Robert-Greene/dp/1781259194/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587293619&sr=1-3)
-- [The Timehorizon Principle - Dr. Julian Hosp](https://www.amazon.de/-/en/TIMEHORIZON-PRINZIP-Zeitmanagement-Hacks-Produktivit%C3%A4ts-Tricks-erfolgreichsten/dp/9881485010/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587291841&sr=1-1)
 - [Thinking, Fast and Slow - Daniel Kahneman](https://www.amazon.de/-/en/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587293470&sr=1-1)
 - [1984 - George Orwell](https://www.amazon.de/1984-George-Orwell/dp/3548234100/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=1984&qid=1613774126&sr=8-1)
 - [Psychologie der Massen - Gustave Le Bon](https://www.amazon.de/Psychologie-Massen-Gustave-Bon/dp/3868200266/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Psychologie+der+Massen&qid=1613774144&sr=8-1)
