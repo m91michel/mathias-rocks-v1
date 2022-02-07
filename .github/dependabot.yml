@@ -5,6 +5,7 @@ updates:
   schedule:
     interval: "weekly"
     day: "sunday"
+  target-branch: "dev"
   open-pull-requests-limit: 10
   ignore:
   - dependency-name: postcss
