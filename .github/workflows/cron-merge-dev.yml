@@ -12,7 +12,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Merge master -> demo
+    - name: Merge dev -> master
       uses: devmasx/merge-branch@v1.3.1
       with:
         type: now
