@@ -6041,14 +6041,14 @@ gatsby-plugin-markdown-pages@^1.0.3:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-offline@^5.7.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-5.7.0.tgz#dd5c317a848c3bf7e200ddfefd6872f2e0c9c998"
-  integrity sha512-0mkXsDiJxSDMgKGQUWqMXG5w0XFvojPqTHvZ3FAY5kFfqUwJ+JbA/XY5D5BGuSnU2P/pOUhcXlcg2hHtJ5NATQ==
+gatsby-plugin-offline@^5.8.1:
+  version "5.8.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-5.8.1.tgz#13e73b44c8c774224889d6c32104651c3d9a6493"
+  integrity sha512-MwcJrN06p4qTy/JGYjZzjmGRvyVIM5hB3HmGL82yeaTQNUTbqPK1CE0N2Wz5YZ9KgqF1lGyvirp2phmV7bf6yA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^3.7.0"
+    gatsby-core-utils "^3.8.1"
     glob "^7.2.0"
     idb-keyval "^3.2.0"
     lodash "^4.17.21"
