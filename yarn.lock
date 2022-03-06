@@ -6428,7 +6428,7 @@ gatsby-cli@^4.9.0:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.8.1, gatsby-core-utils@^3.8.2, gatsby-core-utils@^3.9.0:
+gatsby-core-utils@^3.8.2, gatsby-core-utils@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.9.0.tgz#7be5969622e44c4475cb14f1ac64b49a4072ab6c"
   integrity sha512-SvPnr86oXTY3ldbQ4QAkEew3BQE9vlzUXcXVJqTOhMUeGEz2kibBFUmVp8ia9Y1eOD+K/0xXQ54jUqaResj69w==
@@ -6590,10 +6590,10 @@ gatsby-plugin-page-creator@^4.9.0:
     globby "^11.0.4"
     lodash "^4.17.21"
 
-gatsby-plugin-postcss@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-5.8.0.tgz#7ed15347c6d9647fde33fb66eadec357145d1744"
-  integrity sha512-mzZDNv15NXEkyZOsNxxjAtZoutr7DSbCYxMVSsfuyBYGbs5Cmtm/5ptBW2zqbJoajQSwCssqck1CkKr8vXIW4g==
+gatsby-plugin-postcss@^5.9.0:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-5.9.0.tgz#c1e1888ec6738a4c25e4cafd7acc6d377e5a9603"
+  integrity sha512-G94aaf2TvD6XEn1CfXENOlcwjNiU9LK644Ofe1Q+vuV17XmboV2DuBsuNkFJuYKQzJ0FuZ8bomE3EK39SfFpfg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     postcss-loader "^4.3.0"
@@ -6659,7 +6659,7 @@ gatsby-plugin-typography@^4.8.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-gatsby-plugin-utils@^3.2.0, gatsby-plugin-utils@^3.3.0:
+gatsby-plugin-utils@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.3.0.tgz#f37dac15f381acf876eaef94636d41f7671b0604"
   integrity sha512-wmwSQ/IMVQ8lII015IRToeXzu4LsRayKhlrBpuCbzJJgzBEgTH5ezHkGnxAGKvMn7xP9Oekz6DX/XYwUnAe4ug==
