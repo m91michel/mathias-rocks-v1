@@ -43,7 +43,7 @@
     "gatsby-remark-vscode": "^3.3.0",
     "gatsby-source-filesystem": "^4.10.1",
     "gatsby-transformer-remark": "^5.10.2",
-    "gatsby-transformer-sharp": "^4.10.0",
+    "gatsby-transformer-sharp": "^4.11.0",
     "postcss": "^8.4.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
