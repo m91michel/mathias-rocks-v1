@@ -7,7 +7,7 @@
 
 import React, { ReactNode } from "react";
 import { StaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 type Props = {
   children: ReactNode;
@@ -25,13 +25,12 @@ function Bio() {
             <article className="media">
               <figure className="media-left">
                 <div className="image is-64x64">
-                  <Image
-                    fixed={data.avatar.childImageSharp.fixed}
+                  <GatsbyImage
+                    image={data.avatar.childImageSharp.gatsbyImageData}
                     alt={author}
                     imgStyle={{
                       borderRadius: `50%`,
-                    }}
-                  />
+                    }} />
                 </div>
               </figure>
               <div className="media-content">
@@ -53,24 +52,21 @@ function Bio() {
   );
 }
 
-const bioQuery = graphql`
-  query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
-      }
+const bioQuery = graphql`query BioQuery {
+  avatar: file(absolutePath: {regex: "/profile-pic.jpg/"}) {
+    childImageSharp {
+      gatsbyImageData(width: 50, height: 50, layout: FIXED)
     }
-    site {
-      siteMetadata {
-        author
-        social {
-          twitter
-        }
+  }
+  site {
+    siteMetadata {
+      author
+      social {
+        twitter
       }
     }
   }
+}
 `;
 
 export default Bio;

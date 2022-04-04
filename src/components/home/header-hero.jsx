@@ -1,6 +1,6 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -45,13 +45,12 @@ class HeaderHero extends React.Component {
                 <div className="container">
                   <div className="media-content">
                     <div className="content has-text-centered">
-                      <Image
-                        fixed={data.avatar.childImageSharp.fixed}
+                      <GatsbyImage
+                        image={data.avatar.childImageSharp.gatsbyImageData}
                         alt={author}
                         imgStyle={{
                           borderRadius: `50%`,
-                        }}
-                      />
+                        }} />
                       <h1 className="title is-uppercase is-spaced is-2">
                         {author}
                       </h1>
@@ -85,27 +84,24 @@ class HeaderHero extends React.Component {
   }
 }
 
-const headerHeroQuery = graphql`
-  query HeaderHeroQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 170, height: 170) {
-          ...GatsbyImageSharpFixed
-        }
-      }
+const headerHeroQuery = graphql`query HeaderHeroQuery {
+  avatar: file(absolutePath: {regex: "/profile-pic.jpg/"}) {
+    childImageSharp {
+      gatsbyImageData(width: 170, height: 170, layout: FIXED)
     }
-    site {
-      siteMetadata {
-        author
-        bio
-        social {
-          twitter
-          github
-          xing
-          linkedIn
-        }
+  }
+  site {
+    siteMetadata {
+      author
+      bio
+      social {
+        twitter
+        github
+        xing
+        linkedIn
       }
     }
   }
+}
 `;
 export default HeaderHero;

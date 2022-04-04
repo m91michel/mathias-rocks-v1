@@ -5,6 +5,12 @@ import SEO from "../components/layout/seo";
 
 const projects = [
   {
+    title: "EinfachCrypto.de",
+    link: "https://EinfachCrypto.de",
+    description:
+      "German Website about cryptocurrencies. I build here tools which help me to get some insight about the current state of the crypto market. This project also have a instagram page, where I create informal post or just share some memes.",
+  },
+  {
     title: "Restaurant-Penelope",
     link: "https://restaurant-penelope.de/",
     description:
@@ -19,14 +25,12 @@ const projects = [
   {
     title: "Großkopf Elektrotechnik GmbH",
     link: "https://grosskopf-elektrotechnik-gmbh.de/",
-    description:
-      "I set up the website with Wordpress and provide technical support.",
+    description: "I set up the website with Wordpress and provide technical support.",
   },
   {
     title: "Personal Wiki",
     link: "https://m91michel.github.io/knowledge/",
-    description:
-      "A personal wiki for myself, where I collect interesting information.",
+    description: "A personal wiki for myself, where I collect interesting information.",
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 import Link from "../components/general/Link";
@@ -41,10 +41,7 @@ const PageTemplate: React.FC = () => {
                   </p>
                 </div>
                 <div className="flex-1 md:flex-1 max-md:pt-5 md:pt-0">
-                  <Image
-                    fixed={data.aboutImage.childImageSharp.fixed}
-                    alt="Thats me"
-                  />
+                  <GatsbyImage image={data.aboutImage.childImageSharp.gatsbyImageData} alt="Thats me" />
                 </div>
               </div>
             </Layout>
@@ -56,24 +53,21 @@ const PageTemplate: React.FC = () => {
 
 export default PageTemplate;
 
-const aboutQuery = graphql`
-  query AboutQuery {
-    aboutImage: file(absolutePath: { regex: "/mm-alpen.jpg/" }) {
-      childImageSharp {
-        fixed(width: 300, height: 400) {
-          ...GatsbyImageSharpFixed
-        }
-      }
+const aboutQuery = graphql`query AboutQuery {
+  aboutImage: file(absolutePath: {regex: "/mm-alpen.jpg/"}) {
+    childImageSharp {
+      gatsbyImageData(width: 300, height: 400, layout: FIXED)
     }
-    site {
-      siteMetadata {
-        social {
-          twitter
-          github
-          xing
-          linkedIn
-        }
+  }
+  site {
+    siteMetadata {
+      social {
+        twitter
+        github
+        xing
+        linkedIn
       }
     }
   }
+}
 `;
