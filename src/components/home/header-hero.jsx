@@ -47,6 +47,7 @@ class HeaderHero extends React.Component {
                     <div className="content has-text-centered">
                       <GatsbyImage
                         image={data.avatar.childImageSharp.gatsbyImageData}
+                        className="mx-auto"
                         alt={author}
                         imgStyle={{
                           borderRadius: `50%`,
