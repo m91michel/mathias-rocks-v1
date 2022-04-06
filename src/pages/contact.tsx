@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
             <li>
               Linkedin:{" "}
               <a
-                href="https://www.linkedin.com/in/mathias-michel-b07b6557/"
+                href="https://www.linkedin.com/in/michel-x-mathias/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

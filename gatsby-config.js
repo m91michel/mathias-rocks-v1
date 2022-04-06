@@ -9,7 +9,7 @@ module.exports = {
       twitter: `https://twitter.com/m91michel`,
       github: `https://github.com/m91michel`,
       xing: `https://www.xing.com/profile/Mathias_Michel4/`,
-      linkedIn: `https://www.linkedin.com/in/mathias-michel-b07b6557/`,
+      linkedIn: `https://www.linkedin.com/in/michel-x-mathias/`,
       mail: ``,
     },
   },
