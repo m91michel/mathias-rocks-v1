@@ -73,6 +73,6 @@
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.17.0",
     "prettier": "^2.6.2",
-    "sass": "^1.52.1"
+    "sass": "^1.52.2"
   }
 }
