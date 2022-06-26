@@ -23,7 +23,7 @@
     "@types/react-helmet": "^6.1.5",
     "autoprefixer": "^10.4.7",
     "bulma": "^0.9.4",
-    "gatsby": "^4.16.0",
+    "gatsby": "^4.17.1",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.17.0",
     "gatsby-plugin-google-analytics": "^4.16.0",
