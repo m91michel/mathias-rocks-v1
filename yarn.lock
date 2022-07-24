@@ -7159,27 +7159,6 @@ gatsby-core-utils@^3.18.1, gatsby-core-utils@^3.19.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^3.19.0:
-  version "3.19.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.19.0.tgz#9de637574af1d1d283ffa9b38f058aa2dc6e3d12"
-  integrity sha512-cjXs9DsXkPZt+UdiLHxtq+rGMGVrcnM0KwkawlruvPchI7lqGNv9CScqlvYPxx1dBhu3zSZS26EBALMlFhyOJA==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    fastq "^1.13.0"
-    file-type "^16.5.3"
-    fs-extra "^10.1.0"
-    got "^11.8.5"
-    import-from "^4.0.0"
-    lmdb "2.5.3"
-    lock "^1.1.0"
-    node-object-hash "^2.3.10"
-    proper-lockfile "^4.1.2"
-    resolve-from "^5.0.0"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
 gatsby-graphiql-explorer@^2.18.0:
   version "2.18.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-2.18.0.tgz#d317701b1b94216f14075cacfb12d642f23ac3f2"
@@ -7356,10 +7335,10 @@ gatsby-plugin-react-helmet@^5.18.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-gatsby-plugin-sass@^5.18.1:
-  version "5.18.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-5.18.1.tgz#7ebdc3e1a4b39476d892112b1d9f486be839df64"
-  integrity sha512-xZSHG45j1LFabNzSOE9k/xIlknFfH47xqqiZ1+vhuN5gnzf0SGNEN5w414/LELcsSmTzyDsynTaAWE0Li9fg1g==
+gatsby-plugin-sass@^5.19.0:
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-5.19.0.tgz#e5a47771a82e5619799415af18fc08e56ae920d2"
+  integrity sha512-uI2asTYMOGwYMown6jcFYQn57xUOnsiQPTT9iVSYf+/+FcFLHqUnDom3pweRfwZVwEGNiEHvpH+XC6/zmQzK9Q==
   dependencies:
     "@babel/runtime" "^7.15.4"
     resolve-url-loader "^3.1.4"
