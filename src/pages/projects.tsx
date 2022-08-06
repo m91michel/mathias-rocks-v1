@@ -25,12 +25,14 @@ const projects = [
   {
     title: "Großkopf Elektrotechnik GmbH",
     link: "https://grosskopf-elektrotechnik-gmbh.de/",
-    description: "I set up the website with Wordpress and provide technical support.",
+    description:
+      "I set up the website with Wordpress and provide technical support.",
   },
   {
     title: "Personal Wiki",
     link: "https://m91michel.github.io/knowledge/",
-    description: "A personal wiki for myself, where I collect interesting information.",
+    description:
+      "A personal wiki for myself, where I collect interesting information.",
   },
 ];
 
