@@ -12,7 +12,9 @@ import { GatsbyImage } from "gatsby-plugin-image";
 type Props = {
   children: ReactNode;
 };
-const Container: React.FC<Props> = ({ children }) => <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>;
+const Container: React.FC<Props> = ({ children }) => (
+  <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>
+);
 
 function Bio() {
   return (
@@ -30,15 +32,21 @@ function Bio() {
                     alt={author}
                     imgStyle={{
                       borderRadius: `50%`,
-                    }} />
+                    }}
+                  />
                 </div>
               </figure>
               <div className="media-content">
                 <div className="content">
                   <p>
-                    Written by <strong>{author}</strong> who lives and works in Munich building useful things.
+                    Written by <strong>{author}</strong> who lives and works in
+                    Munich building useful things.
                     {` `}
-                    <a href={`${social.twitter}`} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={`${social.twitter}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Follow me on Twitter
                     </a>
                   </p>
@@ -52,21 +60,22 @@ function Bio() {
   );
 }
 
-const bioQuery = graphql`query BioQuery {
-  avatar: file(absolutePath: {regex: "/profile-pic.jpg/"}) {
-    childImageSharp {
-      gatsbyImageData(width: 50, height: 50, layout: FIXED)
+const bioQuery = graphql`
+  query BioQuery {
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        gatsbyImageData(width: 50, height: 50, layout: FIXED)
+      }
     }
-  }
-  site {
-    siteMetadata {
-      author
-      social {
-        twitter
+    site {
+      siteMetadata {
+        author
+        social {
+          twitter
+        }
       }
     }
   }
-}
 `;
 
 export default Bio;

@@ -27,11 +27,22 @@ const BlogPostTemplate: React.FC<Props> = (props) => {
   const subtitle = post.frontmatter.date;
 
   return (
-    <Layout title={post.frontmatter.title} subtitle={subtitle} tags={post.frontmatter.tags}>
-      <SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt} keywords={post.frontmatter.keywords} />
+    <Layout
+      title={post.frontmatter.title}
+      subtitle={subtitle}
+      tags={post.frontmatter.tags}
+    >
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+        keywords={post.frontmatter.keywords}
+      />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <div className="my-5">
-        <ul className="flex flex-wrap list-none p-0 ml-0 justify-between" style={{ listStyle: `none` }}>
+        <ul
+          className="flex flex-wrap list-none p-0 ml-0 justify-between"
+          style={{ listStyle: `none` }}
+        >
           <li className="flex-1 w-full">
             {previous && (
               <Link to={`/blog${previous.fields.slug}`} rel="prev">

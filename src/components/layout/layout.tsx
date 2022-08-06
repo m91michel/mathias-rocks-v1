@@ -17,14 +17,18 @@ const Layout: React.FC<Props> = ({ title, subtitle, children, tags }) => {
 
       <div className="hero-body">
         <div className="container has-text-centered">
-          <h1 className="title" style={{ marginBottom: '0.5rem' }}>{title}</h1>
+          <h1 className="title" style={{ marginBottom: "0.5rem" }}>
+            {title}
+          </h1>
           <div>
-          {subtitle && <span className="subtitle">{subtitle}</span>}
-          {tags && (
-            <div>
-              {tags?.map((tag) => <Tag tag={tag}/>)}
-            </div>
-          )}
+            {subtitle && <span className="subtitle">{subtitle}</span>}
+            {tags && (
+              <div>
+                {tags?.map((tag) => (
+                  <Tag tag={tag} />
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>

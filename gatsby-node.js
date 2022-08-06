@@ -1,11 +1,11 @@
-const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const path = require(`path`);
+const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
-  const postTemplate = path.resolve(`./src/templates/blog-post.tsx`)
-  const tagTemplate = path.resolve("src/templates/tags.tsx")
+  const postTemplate = path.resolve(`./src/templates/blog-post.tsx`);
+  const tagTemplate = path.resolve("src/templates/tags.tsx");
 
   const loadPosts = graphql(
     `
@@ -25,7 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
           }
-        },
+        }
         tagsGroup: allMarkdownRemark(limit: 2000) {
           group(field: frontmatter___tags) {
             fieldValue
@@ -33,17 +33,18 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `
-  ).then(result => {
+  ).then((result) => {
     if (result.errors) {
-      throw result.errors
+      throw result.errors;
     }
 
     // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
+      const previous =
+        index === posts.length - 1 ? null : posts[index + 1].node;
+      const next = index === 0 ? null : posts[index - 1].node;
 
       createPage({
         path: `blog${post.node.fields.slug}`,
@@ -53,24 +54,24 @@ exports.createPages = ({ graphql, actions }) => {
           previous,
           next,
         },
-      })
-    })
+      });
+    });
 
     // Extract tag data from query
-    const tags = result.data.tagsGroup.group
+    const tags = result.data.tagsGroup.group;
     // Make tag pages
-    tags.forEach(tag => {
+    tags.forEach((tag) => {
       createPage({
         path: `/tags/${tag.fieldValue}/`,
         component: tagTemplate,
         context: {
           tag: tag.fieldValue,
         },
-      })
-    })
+      });
+    });
 
-    return null
-  })
+    return null;
+  });
 
   const loadPages = new Promise((resolve, reject) => {
     graphql(`
@@ -88,8 +89,8 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
-    `).then(result => {
-      const pages = result.data.allMarkdownRemark.edges
+    `).then((result) => {
+      const pages = result.data.allMarkdownRemark.edges;
 
       pages.map(({ node }) => {
         createPage({
@@ -98,31 +99,31 @@ exports.createPages = ({ graphql, actions }) => {
           context: {
             slug: node.fields.slug,
           },
-        })
-      })
-      resolve()
-    })
-  })
+        });
+      });
+      resolve();
+    });
+  });
 
-  return Promise.all([loadPosts, loadPages])
-}
+  return Promise.all([loadPosts, loadPages]);
+};
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const parent = getNode(node.parent)
+    const parent = getNode(node.parent);
     createNodeField({
       node,
       name: "collection",
       value: parent.sourceInstanceName,
-    })
+    });
 
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
       value,
-    })
+    });
   }
-}
+};
