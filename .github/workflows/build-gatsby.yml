@@ -1,7 +1,12 @@
 # This is a basic workflow to help you get started with Actions
-
-on: pull_request_target
 name: Build Gatsby Site
+
+on: 
+  pull_request_target:
+  push:
+    branches:
+      - 'dev'
+
 jobs:
   build:
     name: Build Gatsby Site
