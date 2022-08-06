@@ -4,8 +4,8 @@ name: Build Gatsby Site
 on: 
   # pull_request_target:
   pull_request:
-    branches:
-      - 'dependabot/**'
+    # branches:
+    #   - 'dependabot/**'
 
 jobs:
   build:
