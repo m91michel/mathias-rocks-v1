@@ -4,14 +4,14 @@ import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 
 type KeyValue = {
-  [key: string]: string
-}
+  [key: string]: string;
+};
 
 const encode = (data: KeyValue) => {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
-}
+};
 
 const Contact: React.FC = () => {
   const [state, setState] = React.useState({});
@@ -151,5 +151,5 @@ const Contact: React.FC = () => {
       </div>
     </Layout>
   );
-}
+};
 export default Contact;

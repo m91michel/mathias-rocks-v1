@@ -35,15 +35,15 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.nodes.map(node => {
+              return allMarkdownRemark.nodes.map((node) => {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
-                })
-              })
+                });
+              });
             },
             query: `
               {
@@ -90,12 +90,12 @@ module.exports = {
       },
     },
     {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          path: `${__dirname}/content/pages`,
-          name: `page`,
-        },
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/pages`,
+        name: `page`,
       },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -133,16 +133,16 @@ module.exports = {
       },
     },
     {
-        resolve: `gatsby-plugin-manifest`,
-        options: {
-          name: `Mathias.rocks`,
-          short_name: `Mathias.rocks`,
-          start_url: `/`,
-          background_color: `#ffffff`,
-          theme_color: `#663399`,
-          display: `minimal-ui`,
-          icon: `content/assets/logo.png`,
-        },
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Mathias.rocks`,
+        short_name: `Mathias.rocks`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `content/assets/logo.png`,
       },
+    },
   ],
-}
+};

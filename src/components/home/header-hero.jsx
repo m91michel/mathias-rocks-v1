@@ -51,7 +51,8 @@ class HeaderHero extends React.Component {
                         alt={author}
                         imgStyle={{
                           borderRadius: `50%`,
-                        }} />
+                        }}
+                      />
                       <h1 className="title is-uppercase is-spaced is-2">
                         {author}
                       </h1>
@@ -85,24 +86,25 @@ class HeaderHero extends React.Component {
   }
 }
 
-const headerHeroQuery = graphql`query HeaderHeroQuery {
-  avatar: file(absolutePath: {regex: "/profile-pic.jpg/"}) {
-    childImageSharp {
-      gatsbyImageData(width: 170, height: 170, layout: FIXED)
+const headerHeroQuery = graphql`
+  query HeaderHeroQuery {
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        gatsbyImageData(width: 170, height: 170, layout: FIXED)
+      }
     }
-  }
-  site {
-    siteMetadata {
-      author
-      bio
-      social {
-        twitter
-        github
-        xing
-        linkedIn
+    site {
+      siteMetadata {
+        author
+        bio
+        social {
+          twitter
+          github
+          xing
+          linkedIn
+        }
       }
     }
   }
-}
 `;
 export default HeaderHero;

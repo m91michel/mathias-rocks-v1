@@ -33,7 +33,8 @@ const Navigation: React.FC = () => {
                     <GatsbyImage
                       image={data.logo.childImageSharp.gatsbyImageData}
                       // objectFit="scale-down"
-                      alt={"Logo" + author} />
+                      alt={"Logo" + author}
+                    />
                     <h3
                       className="has-text-weight-bold"
                       style={{ marginLeft: `5px` }}
@@ -80,20 +81,21 @@ const Navigation: React.FC = () => {
   );
 };
 
-const navQuery = graphql`query NavQuery {
-  logo: file(absolutePath: {regex: "/logo.png/"}) {
-    childImageSharp {
-      gatsbyImageData(width: 25, height: 25, layout: FIXED)
+const navQuery = graphql`
+  query NavQuery {
+    logo: file(absolutePath: { regex: "/logo.png/" }) {
+      childImageSharp {
+        gatsbyImageData(width: 25, height: 25, layout: FIXED)
+      }
     }
-  }
-  site {
-    siteMetadata {
-      author
-      social {
-        twitter
+    site {
+      siteMetadata {
+        author
+        social {
+          twitter
+        }
       }
     }
   }
-}
 `;
 export default Navigation;

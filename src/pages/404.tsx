@@ -7,10 +7,10 @@ interface Props {
   data: {
     site: {
       siteMetadata: {
-        title: string
-      }
-    }
-  }
+        title: string;
+      };
+    };
+  };
 }
 
 const NotFoundPage: React.FC<Props> = ({ data }) => {
@@ -35,4 +35,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
