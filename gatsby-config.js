@@ -4,6 +4,7 @@ module.exports = {
     author: `Mathias Michel`,
     description: `Personal Homepage of Mathias Michel.`,
     siteUrl: `https://mathias.rocks`,
+    domain: 'mathias.rocks',
     bio: `Fullstack Developer with focus on UI | Personal Blog, Software Development and Blockchain`,
     social: {
       twitter: `https://twitter.com/m91michel`,

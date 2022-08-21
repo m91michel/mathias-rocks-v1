@@ -92,7 +92,7 @@ exports.createPages = ({ graphql, actions }) => {
     `).then((result) => {
       const pages = result.data.allMarkdownRemark.edges;
 
-      pages.map(({ node }) => {
+      pages.forEach(({ node }) => {
         const slug = node.fields.slug;
         createPage({
           path: `${slug}`,
@@ -114,10 +114,6 @@ exports.createPages = ({ graphql, actions }) => {
   createOpenGraphImage(createPage, {
     path: "/og-image/index.png",
     component: path.resolve(`src/templates/og-image.tsx`),
-    size: {
-      width: 400,
-      height: 50,
-    },
     waitCondition: "networkidle0",
     context: {
       slug: "index",

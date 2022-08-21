@@ -35,6 +35,7 @@ const SEO: React.FC<Props> = ({
             description
             author
             siteUrl
+            domain
           }
         }
       }
@@ -43,70 +44,92 @@ const SEO: React.FC<Props> = ({
 
   const metaDescription = description || site.siteMetadata.description;
   const siteUrl = site.siteMetadata.siteUrl;
+  const domain = site.siteMetadata.domain;
+  const imageUrl = ogImage?.path ? `${siteUrl}${ogImage?.path}` : `${siteUrl}/og-image/index.png`;
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `og:image`,
-          content: siteUrl + ogImage?.path,
-        },
-        {
-          name: `og:image:width`,
-          content: ogImage?.size?.width || '1200',
-        },
-        {
-          name: `g:image:height`,
-          content: ogImage?.size?.height || '630',
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
-            : []
-        )
-        .concat(meta)}
-    />
+      <Helmet
+        htmlAttributes={{
+          lang,
+        }}
+        title={title}
+        titleTemplate={`%s | ${site.siteMetadata.title}`}
+        meta={[
+          {
+            name: 'description',
+            content: metaDescription,
+          },
+          {
+            property: 'og:url',
+            content: title,
+          },
+          {
+            property: 'og:title',
+            content: title,
+          },
+          {
+            property: 'og:type',
+            content: 'website',
+          },
+          {
+            property: 'og:description',
+            content: metaDescription,
+          },
+          {
+            property: 'og:image',
+            content: imageUrl,
+          },
+          {
+            property: 'og:image:width',
+            content: ogImage?.size?.width || '1200',
+          },
+          {
+            property: 'og:image:height',
+            content: ogImage?.size?.height || '630',
+          },
+          {
+            name: 'twitter:card',
+            content: `summary`,
+          },
+          {
+            property: `twitter:domain`,
+            content: domain,
+          },
+          // {
+          //   property: `twitter:url`,
+          //   content: siteUrl, // TODO: replace with page url
+          // },
+          {
+            property: 'twitter:site',
+            content: '@m91michel', // TODO: retrieve from config
+          },
+          {
+            name: 'twitter:title',
+            content: title,
+          },
+          {
+            name: 'twitter:creator',
+            content: site.siteMetadata.author,
+          },
+          {
+            name: 'twitter:description',
+            content: metaDescription,
+          },
+          {
+            name: 'twitter:image',
+            content: imageUrl,
+          },
+        ]
+          .concat(
+            keywords.length > 0
+              ? {
+                  name: 'keywords',
+                  content: keywords.join(', '),
+                }
+              : []
+          )
+          .concat(meta)}
+      />
   );
 };
 
