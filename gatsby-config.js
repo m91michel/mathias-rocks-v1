@@ -82,6 +82,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-open-graph-images`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
