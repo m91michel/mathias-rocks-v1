@@ -15,6 +15,7 @@ interface Props {
   meta?: [];
   title: string;
   keywords?: string[];
+  ogImage?: OgImage;
 }
 
 const SEO: React.FC<Props> = ({
@@ -23,6 +24,7 @@ const SEO: React.FC<Props> = ({
   meta = [],
   keywords = [],
   title,
+  ogImage,
 }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -32,6 +34,7 @@ const SEO: React.FC<Props> = ({
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -39,6 +42,7 @@ const SEO: React.FC<Props> = ({
   );
 
   const metaDescription = description || site.siteMetadata.description;
+  const siteUrl = site.siteMetadata.siteUrl;
 
   return (
     <Helmet
@@ -75,6 +79,18 @@ const SEO: React.FC<Props> = ({
         {
           name: `twitter:title`,
           content: title,
+        },
+        {
+          name: `og:image`,
+          content: siteUrl + ogImage?.path,
+        },
+        {
+          name: `og:image:width`,
+          content: ogImage?.size?.width || '1200',
+        },
+        {
+          name: `g:image:height`,
+          content: ogImage?.size?.height || '630',
         },
         {
           name: `twitter:description`,

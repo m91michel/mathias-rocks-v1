@@ -10,16 +10,21 @@ interface Props {
       frontmatter: Frontmatter;
     };
   };
+  pageContext: {
+    slug: string;
+    ogImage: OgImage
+  }
 }
 
-const PageTemplate: React.FC<Props> = (props) => {
-  const page = props.data.markdownRemark;
+const PageTemplate: React.FC<Props> = ({ data, pageContext }) => {
+  const page = data.markdownRemark;
 
   return (
     <Layout title={page.frontmatter.title}>
       <SEO
         title={page.frontmatter.title}
         description={page.frontmatter.description || ""}
+        ogImage={pageContext.ogImage}
       />
       <div dangerouslySetInnerHTML={{ __html: page.html }} />
     </Layout>

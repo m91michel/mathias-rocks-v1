@@ -1,10 +1,11 @@
-const path = require(`path`);
-const { createFilePath } = require(`gatsby-source-filesystem`);
+const path = require("path");
+const { createFilePath } = require("gatsby-source-filesystem");
+const { createOpenGraphImage } = require("gatsby-plugin-open-graph-images");
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const postTemplate = path.resolve(`./src/templates/blog-post.tsx`);
+  const postTemplate = path.resolve("./src/templates/blog-post.tsx");
   const tagTemplate = path.resolve("src/templates/tags.tsx");
 
   const loadPosts = graphql(
@@ -38,12 +39,11 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors;
     }
 
-    // Create blog posts pages.
+    // create blog posts
     const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach((post, index) => {
-      const previous =
-        index === posts.length - 1 ? null : posts[index + 1].node;
+      const previous = index === posts.length - 1 ? null : posts[index + 1].node;
       const next = index === 0 ? null : posts[index - 1].node;
 
       createPage({
@@ -59,7 +59,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Extract tag data from query
     const tags = result.data.tagsGroup.group;
-    // Make tag pages
+    // create tag pages
     tags.forEach((tag) => {
       createPage({
         path: `/tags/${tag.fieldValue}/`,
@@ -73,7 +73,7 @@ exports.createPages = ({ graphql, actions }) => {
     return null;
   });
 
-  const loadPages = new Promise((resolve, reject) => {
+  const loadPages = new Promise((resolve) => {
     graphql(`
       {
         allMarkdownRemark(filter: { fields: { collection: { eq: "page" } } }) {
@@ -93,16 +93,36 @@ exports.createPages = ({ graphql, actions }) => {
       const pages = result.data.allMarkdownRemark.edges;
 
       pages.map(({ node }) => {
+        const slug = node.fields.slug;
         createPage({
-          path: `${node.fields.slug}`,
-          component: path.resolve(`./src/templates/page.tsx`),
+          path: `${slug}`,
+          component: path.resolve(`src/templates/page.tsx`),
           context: {
-            slug: node.fields.slug,
+            slug: slug,
+            ogImage: createOpenGraphImage(createPage, {
+              path: `/og-images/pages/${slug.slice(1, slug.length - 1)}.png`,
+              component: path.resolve(`src/templates/og-image.tsx`),
+              context: { slug },
+            }),
           },
         });
       });
       resolve();
     });
+  });
+
+  createOpenGraphImage(createPage, {
+    path: "/og-image/index.png",
+    component: path.resolve(`src/templates/og-image.tsx`),
+    size: {
+      width: 400,
+      height: 50,
+    },
+    waitCondition: "networkidle0",
+    context: {
+      slug: "index",
+      description: "a image created with gatsby-plugin-open-graph-images",
+    },
   });
 
   return Promise.all([loadPosts, loadPages]);
