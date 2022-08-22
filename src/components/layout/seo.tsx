@@ -45,7 +45,7 @@ const SEO: React.FC<Props> = ({
   const metaDescription = description || site.siteMetadata.description;
   const siteUrl = site.siteMetadata.siteUrl;
   const domain = site.siteMetadata.domain;
-  const imageUrl = ogImage?.path ? `${siteUrl}${ogImage?.path}` : `${siteUrl}/og-image/index.png`;
+  const imageUrl = ogImage?.path ? `${siteUrl}${ogImage?.path}` : `${siteUrl}/og-images/index.png`;
 
   return (
       <Helmet
