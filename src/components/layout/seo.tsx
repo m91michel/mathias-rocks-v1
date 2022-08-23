@@ -15,7 +15,6 @@ interface Props {
   meta?: [];
   title: string;
   keywords?: string[];
-  ogImage?: OgImage;
 }
 
 const SEO: React.FC<Props> = ({
@@ -24,7 +23,6 @@ const SEO: React.FC<Props> = ({
   meta = [],
   keywords = [],
   title,
-  ogImage,
 }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -45,7 +43,8 @@ const SEO: React.FC<Props> = ({
   const metaDescription = description || site.siteMetadata.description;
   const siteUrl = site.siteMetadata.siteUrl;
   const domain = site.siteMetadata.domain;
-  const imageUrl = ogImage?.path ? `${siteUrl}${ogImage?.path}` : `${siteUrl}/og-images/index.png`;
+  // const imageUrl = ogImage?.path ? `${siteUrl}${ogImage?.path}` : `${siteUrl}/og-images/index.png`;
+  const imageUrl = `https://og-image.mathias.rocks/api/blog?description=${encodeURIComponent(metaDescription)}&siteName=${encodeURIComponent(siteUrl)}&templateTitle=${encodeURIComponent(title)}&theme=dark`
 
   return (
       <Helmet
@@ -81,11 +80,11 @@ const SEO: React.FC<Props> = ({
           },
           {
             property: 'og:image:width',
-            content: ogImage?.size?.width || '1200',
+            content: '1200',
           },
           {
             property: 'og:image:height',
-            content: ogImage?.size?.height || '630',
+            content: '630',
           },
           {
             name: 'twitter:card',
