@@ -1,6 +1,5 @@
 const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
-const { createOpenGraphImage } = require("gatsby-plugin-open-graph-images");
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -94,34 +93,14 @@ exports.createPages = ({ graphql, actions }) => {
 
       pages.forEach(({ node }) => {
         const slug = node.fields.slug;
-        const ogImage = createOpenGraphImage(createPage, {
-          path: `/og-images/pages/${slug.slice(1, slug.length - 1)}.png`,
-          component: path.resolve(`src/templates/og-image.tsx`),
-          context: { slug },
-        });
-        console.log(`Creating page: ${slug}`, ogImage);
-
         createPage({
           path: `${slug}`,
           component: path.resolve(`src/templates/page.tsx`),
-          context: {
-            slug: slug,
-            ogImage
-          }
+          context: { slug }
         });
       });
       resolve();
     });
-  });
-
-  createOpenGraphImage(createPage, {
-    path: "/og-images/index.png",
-    component: path.resolve(`src/templates/og-image.tsx`),
-    // waitCondition: "networkidle0",
-    context: {
-      slug: "index",
-      description: "a image created with gatsby-plugin-open-graph-images",
-    },
   });
 
   return Promise.all([loadPosts, loadPages]);
