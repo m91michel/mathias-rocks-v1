@@ -88,7 +88,7 @@ const SEO: React.FC<Props> = ({
           },
           {
             name: 'twitter:card',
-            content: `summary`,
+            content: `summary_large_image`,
           },
           {
             property: `twitter:domain`,
