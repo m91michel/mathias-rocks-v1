@@ -1,10 +1,10 @@
-const path = require(`path`);
-const { createFilePath } = require(`gatsby-source-filesystem`);
+const path = require("path");
+const { createFilePath } = require("gatsby-source-filesystem");
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const postTemplate = path.resolve(`./src/templates/blog-post.tsx`);
+  const postTemplate = path.resolve("./src/templates/blog-post.tsx");
   const tagTemplate = path.resolve("src/templates/tags.tsx");
 
   const loadPosts = graphql(
@@ -38,12 +38,11 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors;
     }
 
-    // Create blog posts pages.
+    // create blog posts
     const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach((post, index) => {
-      const previous =
-        index === posts.length - 1 ? null : posts[index + 1].node;
+      const previous = index === posts.length - 1 ? null : posts[index + 1].node;
       const next = index === 0 ? null : posts[index - 1].node;
 
       createPage({
@@ -59,7 +58,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Extract tag data from query
     const tags = result.data.tagsGroup.group;
-    // Make tag pages
+    // create tag pages
     tags.forEach((tag) => {
       createPage({
         path: `/tags/${tag.fieldValue}/`,
@@ -73,7 +72,7 @@ exports.createPages = ({ graphql, actions }) => {
     return null;
   });
 
-  const loadPages = new Promise((resolve, reject) => {
+  const loadPages = new Promise((resolve) => {
     graphql(`
       {
         allMarkdownRemark(filter: { fields: { collection: { eq: "page" } } }) {
@@ -92,13 +91,12 @@ exports.createPages = ({ graphql, actions }) => {
     `).then((result) => {
       const pages = result.data.allMarkdownRemark.edges;
 
-      pages.map(({ node }) => {
+      pages.forEach(({ node }) => {
+        const slug = node.fields.slug;
         createPage({
-          path: `${node.fields.slug}`,
-          component: path.resolve(`./src/templates/page.tsx`),
-          context: {
-            slug: node.fields.slug,
-          },
+          path: `${slug}`,
+          component: path.resolve(`src/templates/page.tsx`),
+          context: { slug }
         });
       });
       resolve();
