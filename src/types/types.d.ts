@@ -16,3 +16,11 @@ interface Post {
     slug: string;
   };
 }
+
+interface OgImage {
+  path?: string;
+  size?: {
+    height?: number;
+    width?: number;
+  };
+}

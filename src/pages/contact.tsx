@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                m91michel
+                @m91michel
               </a>
             </li>
             <li>
@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                m91michel
+                @m91michel
               </a>
             </li>
             <li>
