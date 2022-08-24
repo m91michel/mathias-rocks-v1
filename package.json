@@ -64,14 +64,24 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "test": "jest --watch",
+    "test:ci": "CI=true jest",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.8",
+    "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
+    "babel-jest": "^28.1.3",
+    "babel-preset-gatsby": "^2.21.0",
     "eslint": "^8.22.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.3",
     "prettier": "^2.7.1",
-    "sass": "^1.54.5"
+    "react-test-renderer": "^18.2.0",
+    "sass": "^1.54.5",
+    "ts-jest": "^28.0.8"
   }
 }
