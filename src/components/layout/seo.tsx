@@ -8,6 +8,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
+import { openGraph } from "../../utils/og-image";
 
 interface Props {
   description?: string;
@@ -44,9 +45,17 @@ const SEO: React.FC<Props> = ({
   const siteUrl = site.siteMetadata.siteUrl;
   const domain = site.siteMetadata.domain;
   // const imageUrl = ogImage?.path ? `${siteUrl}${ogImage?.path}` : `${siteUrl}/og-images/index.png`;
-  const imageUrl = `https://og-image.mathias.rocks/api/blog?description=${encodeURIComponent(metaDescription)}&siteName=${encodeURIComponent(siteUrl)}&templateTitle=${encodeURIComponent(title)}&theme=dark`
+  // const imageUrl = `https://og-image.mathias.rocks/api/blog?description=${encodeURIComponent(metaDescription)}&siteName=${encodeURIComponent(siteUrl)}&templateTitle=${encodeURIComponent(title)}&theme=dark`
+  const imageUrl = openGraph({
+    description: metaDescription,
+    siteName: siteUrl,
+    templateTitle: title,
+    theme: "dark",
+    ogType: "blog"
+  })
 
   return (
+    //@ts-ignore
       <Helmet
         htmlAttributes={{
           lang,
