@@ -1,7 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 name: Build Gatsby Site
 
-on: 
+on:
   # pull_request_target:
   pull_request:
     # branches:
@@ -12,34 +12,29 @@ jobs:
     name: Build Gatsby Site
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+      - uses: actions/checkout@master
 
-    - name: Set Node.js
-      uses: actions/setup-node@master
-      with:
-        node-version: 14.x
-        cache: 'yarn'
+      - name: Set Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: 14.x
+          cache: "yarn"
 
-    - name: Install dependencies
-      run: yarn install --pure-lockfile
+      - name: Install dependencies
+        run: yarn install --pure-lockfile
 
-    - name: Build
-      run: yarn run build
+      - name: Build
+        run: yarn run build
 
   automerge:
     needs: build
     # if: github.actor == 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
-    - name: Build
-      run: echo "MY_GH_TOKEN ${{ secrets.MY_GH_TOKEN }}"
+      - name: Build
+        run: echo "MY_GH_TOKEN ${{ secrets.MY_GH_TOKEN }}"
 
-    - uses: ahmadnassri/action-dependabot-auto-merge@v2
-      with:
-        target: minor
-        github-token: ${{ secrets.MY_GH_TOKEN }}
-    
-    # - uses: fastify/github-action-merge-dependabot@v2.0.0
-    #   with:
-    #     github-token: ${{ secrets.GITHUB_TOKEN }}
-
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          target: minor
+          github-token: ${{ secrets.MY_GH_TOKEN }}

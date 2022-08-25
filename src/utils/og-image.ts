@@ -5,10 +5,9 @@ export type OpenGraphType = {
   logo?: string;
   theme?: "dark" | "light";
   ogType?: "general" | "blog" | "gradient";
-  
 };
 const queryComponent = (key: string, value: string = "") => {
-  return value ? `&${key}=${encodeURIComponent(value.trim())}` : "";
+  return value ? `${key}=${encodeURIComponent(value.trim())}` : "";
 };
 const deploymentURL = "https://og-image.mathias.rocks";
 export const openGraph = ({ siteName, templateTitle, description, logo, theme = "dark", ogType = "blog" }: OpenGraphType) => {
@@ -20,5 +19,5 @@ export const openGraph = ({ siteName, templateTitle, description, logo, theme = 
     queryComponent("theme", theme),
   ];
 
-  return `${deploymentURL}/api/${ogType}?${elements.join("&")}`;
+  return `${deploymentURL}/api/${ogType}?${elements.filter((v) => Boolean(v)).join("&")}`;
 };
