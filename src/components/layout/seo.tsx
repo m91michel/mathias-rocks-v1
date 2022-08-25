@@ -45,7 +45,7 @@ const SEO: React.FC<Props> = ({ description = "", lang = "en", meta = [], keywor
     siteName: siteUrl,
     templateTitle: title,
     theme: "dark",
-    ogType: "blog",
+    ogType: "personal",
   });
 
   return (

@@ -4,7 +4,7 @@ export type OpenGraphType = {
   templateTitle?: string;
   logo?: string;
   theme?: "dark" | "light";
-  ogType?: "general" | "blog" | "gradient";
+  ogType?: "general" | "blog" | "gradient" | "personal";
 };
 const queryComponent = (key: string, value: string = "") => {
   return value ? `${key}=${encodeURIComponent(value.trim())}` : "";
