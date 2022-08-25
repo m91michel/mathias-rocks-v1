@@ -41,7 +41,6 @@ const SEO: React.FC<Props> = ({ description = "", lang = "en", meta = [], keywor
   // const imageUrl = ogImage?.path ? `${siteUrl}${ogImage?.path}` : `${siteUrl}/og-images/index.png`;
   // const imageUrl = `https://og-image.mathias.rocks/api/blog?description=${encodeURIComponent(metaDescription)}&siteName=${encodeURIComponent(siteUrl)}&templateTitle=${encodeURIComponent(title)}&theme=dark`
   const imageUrl = openGraph({
-    description: metaDescription,
     siteName: siteUrl,
     templateTitle: title,
     theme: "dark",

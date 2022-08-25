@@ -1,6 +1,6 @@
 export type OpenGraphType = {
   siteName: string;
-  description: string;
+  description?: string;
   templateTitle?: string;
   logo?: string;
   theme?: "dark" | "light";
