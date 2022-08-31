@@ -30,7 +30,8 @@ jobs:
 
   automerge:
     needs: build
-    if: contains(github.ref, 'dependabot') && github.event_name == 'pull_request'
+    # run this step only for dependabot pull requests
+    if: contains(github.ref, 'dependabot')
     runs-on: ubuntu-latest
     steps:
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
