@@ -10,6 +10,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Navigation from "../layout/navigation";
+import Link from "../general/Link";
 
 const socialButtons = [
   {
@@ -59,19 +60,17 @@ class HeaderHero extends React.Component {
                       <h2 className="subtitle">{bio}</h2>
                       <div className="subtitle">
                         {socialButtons.map((socialItem) => (
-                          <a
+                          <Link
                             key={socialItem.id}
                             href={social[socialItem.id]}
-                            target="_blank"
-                            rel="noopener noreferrer"
                           >
-                            <span className="icon social-button">
+                            <span className="icon social-button hover:text-sky-800">
                               <FontAwesomeIcon
                                 icon={socialItem.icon}
                                 size="1x"
                               />
                             </span>
-                          </a>
+                          </Link>
                         ))}
                       </div>
                     </div>
