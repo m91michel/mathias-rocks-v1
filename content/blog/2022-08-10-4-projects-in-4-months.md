@@ -1,9 +1,9 @@
 ---
-title: "4 Projects in 4 Months!"
-date: "2022-08-10"
+title: "Month 1: einfachcrypto.de"
+date: "2022-09-01"
 description: Inspired by Peter Levels 12 Startups in 12 Months I decided to do the "4 Projects in 4 Months” challenge.
 keywords: [sabbatical, startup, personal]
-tags: [personal]
+tags: [personal, '4 Projects in 4 Months']
 ---
 
 Inspired by Peter Levels [12 Startups in 12 Months](https://levels.io/12-startups-12-months/) I decided to do the “4 Projects in 4 Months” challenge. I plan to do a sabbatical and work full-time on my projects for four months. This blog post describes the reasons why and how I am doing this.
