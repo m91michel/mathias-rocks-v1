@@ -1,5 +1,6 @@
 const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
+const { encodeUrl } = require("./src/utils/helpers.js");
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -61,7 +62,7 @@ exports.createPages = ({ graphql, actions }) => {
     // create tag pages
     tags.forEach((tag) => {
       createPage({
-        path: `/tags/${tag.fieldValue}/`,
+        path: `/tags/${encodeUrl(tag.fieldValue)}/`,
         component: tagTemplate,
         context: {
           tag: tag.fieldValue,

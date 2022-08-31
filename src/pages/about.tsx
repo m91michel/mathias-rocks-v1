@@ -10,44 +10,33 @@ const PageTemplate: React.FC = () => {
     <StaticQuery
       query={aboutQuery}
       render={(data) => {
-        const { social } = data.site.siteMetadata;
-        const description = `Hi there! My name is Mathias Michel and I am a Software
-          Developer specialized to Mobile and Web Frontend
-          development.`;
+        const description = `My name is Mathias Michel, and I work as a Software Developer specializing in Web and Mobile
+        development.`;
         const title = "About";
         return (
-          <Layout title="Who I am?">
+          <Layout title="About Mathias">
             <SEO title={title} description={description} />
             <div className="md:flex">
               <div className="md:flex-2 md:pr-5">
                 <p>
-                  Hi there! My name is Mathias Michel and I am a Software
-                  Developer specialized to Mobile and Web Frontend development.
-                  I hold a Bachelor of Computer Science &amp; Media from
-                  Technical University Nuremberg and I worked for{" "}
-                  <Link href="https://www.jambit.com">Jambit GmbH</Link> for
-                  three years. I am now working for{" "}
-                  <Link href="https://www.klarx.de">Klarx</Link>.
+                  Hello and welcome! My name is Mathias Michel, and I work as a Software Developer specializing in Web and Mobile
+                  development. I graduated with a Bachelor of Computer Science &amp; Media from Technical University Nuremberg. I worked for{" "}
+                  <Link href="https://www.jambit.com">Jambit GmbH</Link> for three years before joining{" "}
+                  <Link href="https://www.klarx.de">Klarx</Link> in 2020. I am currently conducting the{" "}
+                  <Link to="/blog/2022-08-10-4-projects-in-4-months/">4 Projects in 4 Months</Link> challenge.
                 </p>
                 <p>
-                  Despite traveling the world and going to the gym I am
-                  interested in finance like Stocks, P2P &amp; Cryptocurrencies.
-                  I love nice designs and a good UX in products which you can
-                  find for example in Apple products.
+                  Despite traveling the world and going to the gym, I am interested in finance, specifically stocks, peer-to-peer lending,
+                  and cryptocurrency. I value the simplicity of good design and user experience in products, that's why I enjoy creating
+                  user interfaces.
                 </p>
                 <p>
-                  If you have feedback, questions, or just want to contact me?
-                  You can use the <a href="/contact/">contact form</a> or you
-                  can find me on <a href={social.github}>Github</a>,{" "}
-                  <a href={social.linkedIn}>LinkedIn</a> or{" "}
-                  <a href={social.xing}>Xing</a>
+                  Do you have any advices, questions, or simply want to contact me? Please contact me through the{" "}
+                  <Link to="/contact/">contact form</Link> or one of my social profiles.
                 </p>
               </div>
               <div className="flex-1 md:flex-1 max-md:pt-5 md:pt-0">
-                <GatsbyImage
-                  image={data.aboutImage.childImageSharp.gatsbyImageData}
-                  alt="Thats me"
-                />
+                <GatsbyImage image={data.aboutImage.childImageSharp.gatsbyImageData} alt="Thats me in the mountains of Bavaria" />
               </div>
             </div>
           </Layout>
@@ -64,16 +53,6 @@ const aboutQuery = graphql`
     aboutImage: file(absolutePath: { regex: "/mm-alpen.jpg/" }) {
       childImageSharp {
         gatsbyImageData(width: 300, height: 400, layout: FIXED)
-      }
-    }
-    site {
-      siteMetadata {
-        social {
-          twitter
-          github
-          xing
-          linkedIn
-        }
       }
     }
   }

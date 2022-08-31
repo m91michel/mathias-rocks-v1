@@ -25,7 +25,7 @@ const Layout: React.FC<Props> = ({ title, subtitle, children, tags }) => {
             {tags && (
               <div>
                 {tags?.map((tag) => (
-                  <Tag tag={tag} />
+                  <Tag tag={tag} className="mx-1" />
                 ))}
               </div>
             )}
@@ -37,7 +37,7 @@ const Layout: React.FC<Props> = ({ title, subtitle, children, tags }) => {
 
   return (
     <Fragment>
-      <header>{header}</header>
+      {header}
       <main className="min-h-2/4 max-w-screen-xl mx-auto my-0 px-4 lg:px-0">
         <section>
           <div className="container content">{children}</div>
