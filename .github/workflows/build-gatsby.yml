@@ -34,7 +34,7 @@ jobs:
   automerge:
     needs: build
     # run this step only for dependabot pull requests
-    if: contains(env.BRANCH_NAME, 'dependabot')
+    if: contains(github.env.BRANCH_NAME, 'dependabot')
     runs-on: ubuntu-latest
     steps:
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
