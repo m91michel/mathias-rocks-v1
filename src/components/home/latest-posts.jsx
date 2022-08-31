@@ -40,7 +40,7 @@ function LatestPosts() {
 }
 
 export const latestPostQuery = graphql`
-  query {
+  query LatestPostQuery {
     allMarkdownRemark(
       limit: 3
       sort: { fields: [frontmatter___date], order: DESC }

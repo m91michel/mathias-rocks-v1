@@ -24,6 +24,7 @@ const PageTemplate: React.FC<Props> = ({ data, pageContext }) => {
       <SEO
         title={page.frontmatter.title}
         description={page.frontmatter.description || ""}
+        //@ts-ignore
         ogImage={pageContext.ogImage}
       />
       <div dangerouslySetInnerHTML={{ __html: page.html }} />
@@ -34,7 +35,7 @@ const PageTemplate: React.FC<Props> = ({ data, pageContext }) => {
 export default PageTemplate;
 
 export const pageQuery = graphql`
-  query ($slug: String!) {
+  query PageQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {

@@ -48,7 +48,7 @@ const Blog: React.FC<Props> = ({ data }) => {
 export default Blog;
 
 export const pageQuery = graphql`
-  query {
+  query BlogQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { fields: { collection: { eq: "blog" } } }

@@ -52,7 +52,7 @@ const Blog: React.FC<Props> = ({ data, pageContext: { tag }, ...other }) => {
 export default Blog;
 
 export const pageQuery = graphql`
-  query ($tag: String) {
+  query PostsByTagsQuery ($tag: String) {
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
