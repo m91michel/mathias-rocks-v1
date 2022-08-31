@@ -6,15 +6,14 @@
 // VARIABLES
 $primary-color: #2980b9;
 $secondary-color: #6dd5fa;
+$hover-color: #075985;
 
 p a,
 li a {
   color: $primary-color !important;
 }
-
-.gradientBg {
-  display: flex;
-  background: linear-gradient(to right, $primary-color, $secondary-color);
+a:hover {
+  color: $hover-color !important;
 }
 
 .center {

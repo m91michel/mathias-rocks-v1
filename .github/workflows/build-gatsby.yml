@@ -6,6 +6,9 @@ on:
   # branches:
   #   - 'dependabot/**'
 
+env:
+ BRANCH_NAME: ${{ github.head_ref || github.ref_name }} 
+
 jobs:
   build:
     name: Build Gatsby Site
@@ -31,7 +34,7 @@ jobs:
   automerge:
     needs: build
     # run this step only for dependabot pull requests
-    if: contains(github.ref, 'dependabot')
+    if: contains(github.env.BRANCH_NAME, 'dependabot')
     runs-on: ubuntu-latest
     steps:
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
