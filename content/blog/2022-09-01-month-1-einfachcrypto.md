@@ -1,6 +1,6 @@
 ---
-title: "4 Projects in 4 Months!"
-date: "2022-08-10"
+title: "Month 1: einfachcrypto.de"
+date: "2022-09-01"
 description: My 4 Projects in 4 Months will begin with the topic of cryptocurrency, as outlined in my first blog article. The overall goal is to solve my own problems with cryptocurrency investing.
 keywords: [sabbatical, startup, personal]
 tags: [personal, '4 Projects in 4 Months']
@@ -31,7 +31,7 @@ I don't have a crystal-clear end goal in mind. This means I'll have to look into
 
 ## Further ideas
 - [finanzblogroll.net](https://www.finanzblogroll.net/) for crypto-related blogs
-- ProductHunt for crypto projects
+- [ProductHunt](https://www.producthunt.com/) for crypto projects
 
 ## Follow me
 You can follow my daily progress on [Twitter](https://twitter.com/m91michel) and my monthly summary here on [this blog](/blog/).
