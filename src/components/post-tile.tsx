@@ -4,24 +4,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 
 type Props = {
-  title?: string;
-  link: string;
-  date?: string;
-  timeToRead?: string;
+  post: Post
 };
 
-const PostTile = ({ title, link, date, timeToRead }: Props) => {
+const PostTile = ({ post }: Props) => {
+  const title = post?.frontmatter?.title || post?.fields?.slug;
+  const link = `/blog${post?.fields?.slug}`
   return (
     <Fragment>
       <div className="column">
         <article className="box has-text-centered">
           <Link to={link}>
-            <h2 className="title">{title}</h2>
+            <h2 className="title hover:text-sky-800">{title}</h2>
           </Link>
           <p>
-            {date} -{" "}
-            <small>
-              <FontAwesomeIcon icon={faClock} style={{ maxHeight: '10px' }} /> {timeToRead} min
+            {post?.frontmatter?.date} -{" "}
+            <small className="inline">
+              <FontAwesomeIcon icon={faClock} style={{ maxHeight: '10px' }} /> {post?.timeToRead} min
             </small>
           </p>
         </article>
