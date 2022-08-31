@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import Link from "../general/Link";
 
 const Footer = () => (
   <footer className="flex justify-center">
@@ -7,7 +7,7 @@ const Footer = () => (
       <div>
         Mathias Michel © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <Link href="https://www.gatsbyjs.org">Gatsby</Link>
       </div>
       <div>
         <Link to="/imprint">Imprint</Link>

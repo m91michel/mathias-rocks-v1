@@ -21,7 +21,7 @@ const PostTile = ({ title, link, date, timeToRead }: Props) => {
           <p>
             {date} -{" "}
             <small>
-              <FontAwesomeIcon icon={faClock} /> {timeToRead} min
+              <FontAwesomeIcon icon={faClock} style={{ maxHeight: '10px' }} /> {timeToRead} min
             </small>
           </p>
         </article>

@@ -8,13 +8,12 @@
 import React, { ReactNode } from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
+import Link from "./general/Link";
 
 type Props = {
   children: ReactNode;
 };
-const Container: React.FC<Props> = ({ children }) => (
-  <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>
-);
+const Container: React.FC<Props> = ({ children }) => <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>;
 
 function Bio() {
   return (
@@ -39,16 +38,9 @@ function Bio() {
               <div className="media-content">
                 <div className="content">
                   <p>
-                    Written by <strong>{author}</strong> who lives and works in
-                    Munich building useful things.
+                    Written by <strong>{author}</strong> who lives and works in Munich building useful things.
                     {` `}
-                    <a
-                      href={`${social.twitter}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Follow me on Twitter
-                    </a>
+                    <Link href={`${social.twitter}`}>Follow me on Twitter</Link>
                   </p>
                 </div>
               </div>
