@@ -38,7 +38,7 @@ function Bio() {
               <div className="media-content">
                 <div className="content">
                   <p>
-                    Written by <strong>{author}</strong> who lives and works in Munich building useful things.
+                    Written by <strong>{author}</strong> who lives and works in Fürth, Bavaria building useful things.
                     {` `}
                     <Link href={`${social.twitter}`}>Follow me on Twitter</Link>
                   </p>

@@ -25,7 +25,7 @@ const Layout: React.FC<Props> = ({ title, subtitle, children, tags }) => {
             {tags && (
               <div>
                 {tags?.map((tag) => (
-                  <Tag tag={tag} />
+                  <Tag tag={tag} className="mx-1" />
                 ))}
               </div>
             )}
