@@ -5,7 +5,7 @@ module.exports = {
     description: `Personal Homepage of Mathias Michel.`,
     siteUrl: `https://mathias.rocks`,
     domain: 'mathias.rocks',
-    bio: `Fullstack Developer with focus on UI | Personal Blog, Software Development and Blockchain`,
+    bio: `Software Developer specialized in Web and Mobile | Personal Blog, Software Development and Blockchain`,
     social: {
       twitter: `https://twitter.com/m91michel`,
       github: `https://github.com/m91michel`,
@@ -85,6 +85,12 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

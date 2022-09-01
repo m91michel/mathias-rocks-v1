@@ -27,9 +27,9 @@ const Navigation: React.FC = () => {
                 <div className="navbar-brand">
                   <Link className="navbar-item" to={`/`}>
                     <GatsbyImage image={data.logo.childImageSharp.gatsbyImageData} alt={"Logo" + author} />
-                    <h3 className="has-text-weight-bold" style={{ marginLeft: `5px` }}>
+                    <span className="has-text-weight-bold" style={{ marginLeft: `5px` }}>
                       {author}
-                    </h3>
+                    </span>
                   </Link>
                   <button
                     className={`navbar-burger unset-button burger ${isExpanded ? `is-active` : ``}`}
