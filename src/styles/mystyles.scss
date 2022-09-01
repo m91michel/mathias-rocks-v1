@@ -13,6 +13,9 @@ li a {
   color: $primary-color !important;
 }
 a:hover {
+  color: $hover-color;
+}
+.content a:hover {
   color: $hover-color !important;
 }
 
