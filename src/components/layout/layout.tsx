@@ -4,10 +4,10 @@ import Footer from "./footer";
 import Tag from "../tag";
 
 type Props = {
-  title: string;
-  subtitle?: string;
+  title?: string | null;
+  subtitle?: string | null;
   children: ReactNode;
-  tags?: string[];
+  tags?: string[] | null;
 };
 
 const Layout: React.FC<Props> = ({ title, subtitle, children, tags }) => {

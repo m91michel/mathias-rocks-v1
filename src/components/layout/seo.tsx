@@ -11,11 +11,12 @@ import { useStaticQuery, graphql } from "gatsby";
 import { openGraph } from "../../utils/og-image";
 
 interface Props {
-  description?: string;
+  description?: string | null;
   lang?: string;
   meta?: [];
-  title: string;
-  keywords?: string[];
+  title?: string | null;
+  keywords?: string[] | null;
+  slug?: string;
 }
 
 const SEO: React.FC<Props> = ({
@@ -44,22 +45,21 @@ const SEO: React.FC<Props> = ({
   const metaDescription = description || site.siteMetadata.description;
   const siteUrl = site.siteMetadata.siteUrl;
   const domain = site.siteMetadata.domain;
-  // const imageUrl = ogImage?.path ? `${siteUrl}${ogImage?.path}` : `${siteUrl}/og-images/index.png`;
-  // const imageUrl = `https://og-image.mathias.rocks/api/blog?description=${encodeURIComponent(metaDescription)}&siteName=${encodeURIComponent(siteUrl)}&templateTitle=${encodeURIComponent(title)}&theme=dark`
+  const seoTitle = title || site.siteMetadata.title;
+  const seoKeywords = keywords || [];
   const imageUrl = openGraph({
     siteName: siteUrl,
-    templateTitle: title,
+    templateTitle: seoTitle,
     theme: "dark",
     ogType: "personal",
   });
 
   return (
-    //@ts-ignore
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={seoTitle}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
@@ -72,7 +72,7 @@ const SEO: React.FC<Props> = ({
         },
         {
           property: "og:title",
-          content: title,
+          content: seoTitle,
         },
         {
           property: "og:type",
@@ -112,7 +112,7 @@ const SEO: React.FC<Props> = ({
         },
         {
           name: "twitter:title",
-          content: title,
+          content: seoTitle,
         },
         {
           name: "twitter:creator",
@@ -128,10 +128,10 @@ const SEO: React.FC<Props> = ({
         },
       ]
         .concat(
-          keywords.length > 0
+          seoKeywords.length > 0
             ? {
                 name: "keywords",
-                content: keywords.join(", "),
+                content: seoKeywords.join(", "),
               }
             : []
         )

@@ -12,7 +12,6 @@ interface Props {
   };
   pageContext: {
     slug: string;
-    ogImage: OgImage;
   };
 }
 
@@ -24,8 +23,7 @@ const PageTemplate: React.FC<Props> = ({ data, pageContext }) => {
       <SEO
         title={page.frontmatter.title}
         description={page.frontmatter.description || ""}
-        //@ts-ignore
-        ogImage={pageContext.ogImage}
+        slug={pageContext.slug}
       />
       <div dangerouslySetInnerHTML={{ __html: page.html }} />
     </Layout>
