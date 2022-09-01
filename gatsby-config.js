@@ -4,7 +4,7 @@ module.exports = {
     author: `Mathias Michel`,
     description: `Personal Homepage of Mathias Michel.`,
     siteUrl: `https://mathias.rocks`,
-    domain: 'mathias.rocks',
+    domain: "mathias.rocks",
     bio: `Software Developer specialized in Web and Mobile | Personal Blog, Software Development and Blockchain`,
     social: {
       twitter: `https://twitter.com/m91michel`,
@@ -129,7 +129,7 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-external-links`
+            resolve: `gatsby-remark-external-links`,
           },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,

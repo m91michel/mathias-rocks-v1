@@ -2,20 +2,20 @@ name: "[cron] merge dev -> master"
 
 on:
   schedule:
-    - cron: '0 8 * * 6' # “At 08:00 on Saturday.”
+    - cron: "0 8 * * 6" # “At 08:00 on Saturday.”
   workflow_dispatch:
 
 jobs:
   nightly-merge:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v1
 
-    - name: Merge dev -> master
-      uses: devmasx/merge-branch@v1.3.1
-      with:
-        type: now
-        from_branch: dev
-        target_branch: master
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Merge dev -> master
+        uses: devmasx/merge-branch@v1.3.1
+        with:
+          type: now
+          from_branch: dev
+          target_branch: master
+          github_token: ${{ secrets.GITHUB_TOKEN }}

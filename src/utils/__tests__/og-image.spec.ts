@@ -36,6 +36,8 @@ describe("og-image", () => {
       description: "description",
     };
     const url = openGraph(props);
-    expect(url).toBe("https://og-image.mathias.rocks/api/blog?siteName=siteName&description=description&theme=dark");
+    expect(url).toBe(
+      "https://og-image.mathias.rocks/api/blog?siteName=siteName&description=description&theme=dark"
+    );
   });
 });

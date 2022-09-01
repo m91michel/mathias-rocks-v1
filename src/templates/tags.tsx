@@ -9,7 +9,10 @@ type PageContext = {
   tag: string;
 };
 
-const Blog = ({ data, pageContext: { tag } }: PageProps<Queries.PostsByTagsQuery, PageContext>) => {
+const Blog = ({
+  data,
+  pageContext: { tag },
+}: PageProps<Queries.PostsByTagsQuery, PageContext>) => {
   const posts = data.allMarkdownRemark.edges.map(({ node }) => node) as Post[];
   const title = `Posts for #${tag}`;
 
@@ -30,7 +33,11 @@ export default Blog;
 
 export const pageQuery = graphql`
   query PostsByTags($tag: String) {
-    allMarkdownRemark(limit: 2000, sort: { fields: [frontmatter___date], order: DESC }, filter: { frontmatter: { tags: { in: [$tag] } } }) {
+    allMarkdownRemark(
+      limit: 2000
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+    ) {
       totalCount
       edges {
         node {

@@ -13,7 +13,9 @@ import Link from "./general/Link";
 type Props = {
   children: ReactNode;
 };
-const Container: React.FC<Props> = ({ children }) => <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>;
+const Container: React.FC<Props> = ({ children }) => (
+  <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>
+);
 
 function Bio() {
   return (
@@ -38,7 +40,8 @@ function Bio() {
               <div className="media-content">
                 <div className="content">
                   <p>
-                    Written by <strong>{author}</strong> who lives and works in Fürth, Bavaria building useful things.
+                    Written by <strong>{author}</strong> who lives and works in
+                    Fürth, Bavaria building useful things.
                     {` `}
                     <Link href={`${social.twitter}`}>Follow me on Twitter</Link>
                   </p>

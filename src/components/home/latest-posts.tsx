@@ -9,7 +9,7 @@ const titleStyle = {
 export default function LatestPosts() {
   const data = useStaticQuery<Queries.LatestPostQuery>(latestPostQuery);
   const posts = data.allMarkdownRemark.edges;
-  
+
   return (
     <section className="container content">
       <div className="has-text-centered" style={titleStyle}>
@@ -26,7 +26,11 @@ export default function LatestPosts() {
 
 export const latestPostQuery = graphql`
   query LatestPost {
-    allMarkdownRemark(limit: 3, sort: { fields: [frontmatter___date], order: DESC }, filter: { fields: { collection: { eq: "blog" } } }) {
+    allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fields: { collection: { eq: "blog" } } }
+    ) {
       edges {
         node {
           excerpt

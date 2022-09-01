@@ -9,6 +9,7 @@ Auf dieser Seite teile ich meine Weiterempfehlungslinks von unterschiedlichen An
 Seiten die mit 🤷‍♂️ markiert sind, bieten leider keinen Bonus für Freunde. Du kannst meinen Link/Code verwenden, wenn du mir etwas ❤️ schenken möchtest.
 
 ## Banking
+
 - [Vivid](https://vivid.money/r/mathias9MH) - Wir erhalten beide einen Bonus von 40€, sobald du für 20€ etwas gekauft hast. Der Bonus ändert sich öfters.
 - [N26](https://n26.com/r/mathiasm3438) - Benutze den code `mathiasm3438` und wir bekommen beide 15€
 - [TradeRepublik](https://ref.trade.re/9ndsz68z) - Wir erhalten beide 15€
@@ -20,6 +21,7 @@ Seiten die mit 🤷‍♂️ markiert sind, bieten leider keinen Bonus für Freu
 - [Revolut](https://revolut.com/referral/mathia9rpo!SEP1AR) - Abhängig von der aktuellen Aktion
 
 ## Crypto
+
 - [Bitpanda](https://www.bitpanda.com/?ref=1744922665805272769) - Wir erhalten beide 10€, wenn du mind. 25€ tradest.
 - [Nuri](https://app.nuri.com/r/MBVJ-89RF) (Ex Bitwala) - Wir erhalten beide 30€ nach deinem ersten Trade.
 - [Crypto.com](https://crypto.com/app/byjhe4vd6c) - Wir bekommen beide $25 USD, wenn du 2500 CRO stakest.
@@ -31,6 +33,7 @@ Seiten die mit 🤷‍♂️ markiert sind, bieten leider keinen Bonus für Freu
 - [Bittrex](https://bittrex.com/account/register?referralCode=P0L-UPG-MBR) - Erhalte 10% Rabat auf Gebühren.
 
 ## Mobilität
+
 - [Emmy](http://onelink.to/emmy) - Benutze 7cJa3k1v und wir bekommen beide 15 Freiminuten
 - [Tier](https://tier.page.link/pSK75) - Wir erhalten beide 2 Freischaltungen und 15 Freiminuten
 - [Lime](https://lime.bike/referral_signin/R5YTURQ) - Wir erhalten beide 5€ Fahrtguthaben
@@ -39,15 +42,19 @@ Seiten die mit 🤷‍♂️ markiert sind, bieten leider keinen Bonus für Freu
 - [AirBnb](www.airbnb.de/r/mathiasm909)
 
 ## Marketplaces
+
 - [fiverr.com](http://www.fiverr.com/s2/8899f1392f) - Du erhältst einen Rabatt auf deinen ersten Kauf und ich erhalte 20% provision.
 
 ## Weiteres
+
 - [Fraenk](https://2ekq.adj.st/mgm?campaign=302199764&friend=3ZN34sFhGOqHPrpQ&adjust_t=u66g7hl&adjust_fallback=https%3A%2F%2Fwww.fraenk.de&allowReattribution=true&adj_campaign=mgm) - Über links anmelden. Ich erhalte eine 30€ Gutschrift und du bekommst 1 GB extra.
-- [honeygain](https://r.honeygain.me/MATH92FAB5) - Erhalte einen Willkommensbonus von 5€. Honeygain ist ein Netzwerk wo du deine Internetverbindung für Unternehmen teilst und dabei vergütet wirst. 
+- [honeygain](https://r.honeygain.me/MATH92FAB5) - Erhalte einen Willkommensbonus von 5€. Honeygain ist ein Netzwerk wo du deine Internetverbindung für Unternehmen teilst und dabei vergütet wirst.
 
 ## Coupon Profile
+
 - [referall.codes](https://www.referall.codes/de/users/4654)
 - [topparrain.com](https://www.topparrain.com/de/users/124568)
 
 ## Hinweis
+
 Der Bonus kann sich bei jedem Anbieter ändern und da ich die Seite in unregelmäßig abständen update, können die Angaben veraltet sein. Du kannst aber jeder Zeit auf mich zukommen :)
