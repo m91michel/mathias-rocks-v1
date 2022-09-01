@@ -65,6 +65,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "format": "prettier --write src/**/*.{js,jsx}",
     "test": "jest --watch",
     "test:ci": "CI=true jest",
