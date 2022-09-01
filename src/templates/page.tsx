@@ -12,8 +12,8 @@ interface Props {
   };
   pageContext: {
     slug: string;
-    ogImage: OgImage
-  }
+    ogImage: OgImage;
+  };
 }
 
 const PageTemplate: React.FC<Props> = ({ data, pageContext }) => {

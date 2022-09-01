@@ -22,17 +22,29 @@ const Navigation: React.FC = () => {
 
         return (
           <div className="hero-head">
-            <nav className="navbar" role="navigation" aria-label="main navigation">
+            <nav
+              className="navbar"
+              role="navigation"
+              aria-label="main navigation"
+            >
               <div className="container">
                 <div className="navbar-brand">
                   <Link className="navbar-item" to={`/`}>
-                    <GatsbyImage image={data.logo.childImageSharp.gatsbyImageData} alt={"Logo" + author} />
-                    <span className="has-text-weight-bold" style={{ marginLeft: `5px` }}>
+                    <GatsbyImage
+                      image={data.logo.childImageSharp.gatsbyImageData}
+                      alt={"Logo" + author}
+                    />
+                    <span
+                      className="has-text-weight-bold"
+                      style={{ marginLeft: `5px` }}
+                    >
                       {author}
                     </span>
                   </Link>
                   <button
-                    className={`navbar-burger unset-button burger ${isExpanded ? `is-active` : ``}`}
+                    className={`navbar-burger unset-button burger ${
+                      isExpanded ? `is-active` : ``
+                    }`}
                     data-target="navbarMenuHeroB"
                     onClick={() => toggleExpansion(!isExpanded)}
                   >
@@ -42,10 +54,18 @@ const Navigation: React.FC = () => {
                   </button>
                 </div>
 
-                <div id="navbarBasicExample" className={`navbar-menu ${isExpanded ? `is-active` : ``}`}>
+                <div
+                  id="navbarBasicExample"
+                  className={`navbar-menu ${isExpanded ? `is-active` : ``}`}
+                >
                   <div className="navbar-end">
                     {NavLinks.map((item) => (
-                      <Link key={item.name} className="navbar-item" to={item.to} activeClassName="is-active">
+                      <Link
+                        key={item.name}
+                        className="navbar-item"
+                        to={item.to}
+                        activeClassName="is-active"
+                      >
                         {item.name}
                       </Link>
                     ))}

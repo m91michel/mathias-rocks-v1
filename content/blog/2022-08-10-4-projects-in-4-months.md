@@ -3,7 +3,7 @@ title: "4 Projects in 4 Months!"
 date: "2022-08-10"
 description: Inspired by Peter Levels 12 Startups in 12 Months I decided to do the "4 Projects in 4 Months” challenge.
 keywords: [sabbatical, startup, personal]
-tags: [personal, '4 Projects in 4 Months']
+tags: [personal, "4 Projects in 4 Months"]
 ---
 
 Inspired by Peter Levels [12 Startups in 12 Months](https://levels.io/12-startups-12-months/) I decided to do the “4 Projects in 4 Months” challenge. I plan to do a sabbatical and work full-time on my projects for four months. This blog post describes the reasons why and how I am doing this.
@@ -47,7 +47,7 @@ I am already supporting a friend with technical and marketing consulting. He sta
 
 ### Month 3: Building a Micro SaaS (Micro Software as a Service) business
 
-I subscribed to the [Micro SaaS Idea](https://microsaasidea.substack.com/) newsletter. The idea is to pick one idea from this newsletter and build it. 
+I subscribed to the [Micro SaaS Idea](https://microsaasidea.substack.com/) newsletter. The idea is to pick one idea from this newsletter and build it.
 
 **Goal**
 
@@ -56,11 +56,12 @@ I subscribed to the [Micro SaaS Idea](https://microsaasidea.substack.com/) newsl
 
 ### Month 4: Open - no-code or MSaaS
 
-I haven't made a final decision for this month because I want to have the flexibility to decide later. I have two options here. Either I build something with a no-code platform (e.g. [bubble](https://bubble.io/)) or I start another micro SaaS business from the newsletter. Maybe I can also combine them and do both. ;) 
+I haven't made a final decision for this month because I want to have the flexibility to decide later. I have two options here. Either I build something with a no-code platform (e.g. [bubble](https://bubble.io/)) or I start another micro SaaS business from the newsletter. Maybe I can also combine them and do both. ;)
 
 **Goal**
+
 - I see a big potential in no-code. This will help me in my carrier and in my own business.
 
-
 ## Follow me
+
 I hope you are as curious as I am about how these 4 months will go. You can follow the daily progress on [Twitter](https://twitter.com/m91michel) and my monthly summary here on [this blog](/blog/). I already archived one milestone by writing this article. But it’s still hard for me to write.🤷🏻‍♂️
