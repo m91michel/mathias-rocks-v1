@@ -10,8 +10,7 @@ date: "2019-10-06T23:46:37.121Z"
 - Set up a suitable refresh time
 - Create an base64 icon and insert it
 
-
 Todo:
+
 - maybe node js plugin would be great?
-- 
-  
+-

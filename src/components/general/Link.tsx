@@ -9,7 +9,7 @@ interface Props {
 
 const Link: React.FC<Props> = ({ href, to, children }) => {
   if (to) {
-    return <GatsbyLink to={to}>{children}</GatsbyLink>
+    return <GatsbyLink to={to}>{children}</GatsbyLink>;
   }
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">

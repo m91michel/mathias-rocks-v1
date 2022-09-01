@@ -1,7 +1,7 @@
 ---
-title:  "Website for Restaurant-Penelope"
+title: "Website for Restaurant-Penelope"
 header:
-    teaser: "/assets/images/projects/penelope/teaser.jpg"
+  teaser: "/assets/images/projects/penelope/teaser.jpg"
 sidebar:
   - title: "Role"
     image: "/assets/images/projects/penelope/teaser.jpg"
@@ -22,9 +22,10 @@ gallery:
     alt: "Contact"
 ---
 
-[Restaurant-Penelope](https://restaurant-penelope.de/){:target="_blank"} is a excellent greek Restaurant which is based in my home town Fürth. I helped them to decide which CMS they should use, choice a beautify theme and managed all content.
+[Restaurant-Penelope](https://restaurant-penelope.de/){:target="\_blank"} is a excellent greek Restaurant which is based in my home town Fürth. I helped them to decide which CMS they should use, choice a beautify theme and managed all content.
 
 ## Responsibilities
+
 - Setup and configuration of Wordpress
 - Help with choice a nice theme and install these theme
 - Plugins for SEO

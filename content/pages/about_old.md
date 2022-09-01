@@ -9,4 +9,4 @@ Despite traveling the world and going to the gym I am interested in finance like
 
 If you have feedback, questions, or just want to contact me? You can use the [contact form] or you can find me on
 
-[Jambit Gmbh]: http://www.jambit.com
+[jambit gmbh]: http://www.jambit.com

@@ -21,6 +21,7 @@ This blog post is updated regularly and contains a list of books I have already 
 - [Wie man freunde Gewinnt by Dale Carnegie](https://www.amazon.de/Wie-man-Freunde-gewinnt-einflussreich/dp/3596190533/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&dchild=1&keywords=Wie+man+freunde+Gewinnt&qid=1613774078&quartzVehicle=69-1541&replacementKeywords=wie+freunde+gewinnt&sr=8-1)
 
 **2021**
+
 - [Life Is What You Make It: Find Your Own Path to Fulfillment by Peter Buffett](https://www.amazon.de/Life-What-You-Make-Fulfillment/dp/0307464725/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Life+is+What+you+make+it&qid=1613774104&quartzVehicle=842-235&replacementKeywords=life+what+you+make+it&sr=8-1)
 - [Die 4-Stunden-Woche: Mehr Zeit, mehr Geld, mehr Leben by Timothy Ferriss](https://www.amazon.de/Die-4-Stunden-Woche-Mehr-Zeit-Leben/dp/3548375960/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=4+Stunden+Woche&qid=1613774166&quartzVehicle=812-409&replacementKeywords=stunden+woche&sr=8-1)
 - [The Timehorizon Principle by Dr. Julian Hosp](https://www.amazon.de/-/en/TIMEHORIZON-PRINZIP-Zeitmanagement-Hacks-Produktivit%C3%A4ts-Tricks-erfolgreichsten/dp/9881485010/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587291841&sr=1-1)
@@ -29,6 +30,7 @@ This blog post is updated regularly and contains a list of books I have already 
 - [The One Thing by Gary Keller](https://www.amazon.com/The-One-Thing/dp/386881681X) - December
 
 **2022**
+
 - [10xDNA by Frank Thelen](https://www.amazon.com/10xDNA-Mindset-Thriving-Frank-Thelen-ebook/dp/B08NYQDBQT/ref=sr_1_1?crid=178CPQW5OGYM&keywords=10xdna&qid=1643655225&s=books&sprefix=10xdn%2Cstripbooks-intl-ship%2C258&sr=1-1) - January
 - [Das Café am Rande der Welt by Strelecky John](https://www.amazon.com/Cafe-Edge-World-Story-Meaning/dp/0991392051/ref=pd_sim_1/146-6201825-2124523?pd_rd_w=Z2d0v&pf_rd_p=dee70060-7c6d-4721-a321-50a27281cd22&pf_rd_r=GCB1SWB1RCJPH8WR66KH&pd_rd_r=c9669535-a660-4eb5-adfa-acdbee28ca4d&pd_rd_wg=LOp7g&pd_rd_i=0991392051&psc=1) - January
 

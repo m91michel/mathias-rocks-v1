@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 
 type Props = {
-  post: Post
+  post: Post;
 };
 
 const PostTile = ({ post }: Props) => {
   const title = post?.frontmatter?.title || post?.fields?.slug;
-  const link = `/blog${post?.fields?.slug}`
+  const link = `/blog${post?.fields?.slug}`;
   return (
     <Fragment>
       <div className="column">
@@ -20,7 +20,8 @@ const PostTile = ({ post }: Props) => {
           <p>
             {post?.frontmatter?.date} -{" "}
             <small className="inline">
-              <FontAwesomeIcon icon={faClock} style={{ maxHeight: '10px' }} /> {post?.timeToRead} min
+              <FontAwesomeIcon icon={faClock} style={{ maxHeight: "10px" }} />{" "}
+              {post?.timeToRead} min
             </small>
           </p>
         </article>

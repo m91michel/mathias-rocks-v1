@@ -1,16 +1,16 @@
 import Typography from "typography";
-import fairyGatesTheme from 'typography-theme-fairy-gates'
+import fairyGatesTheme from "typography-theme-fairy-gates";
 
 fairyGatesTheme.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
-      boxShadow: 'none',
+      boxShadow: "none",
     },
-    "a": {
-      boxShadow: 'none',
-      textShadow: 'none',
-      backgroundImage: 'none',
-    }
+    a: {
+      boxShadow: "none",
+      textShadow: "none",
+      backgroundImage: "none",
+    },
   };
 };
 

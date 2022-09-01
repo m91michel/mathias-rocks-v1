@@ -8,14 +8,14 @@ $primary-color: #2980b9;
 $secondary-color: #6dd5fa;
 $hover-color: #075985;
 
-p a,
+p a:not(.button),
 li a {
   color: $primary-color !important;
 }
 a:hover {
   color: $hover-color;
 }
-.content a:hover {
+.content a:not(.button):hover {
   color: $hover-color !important;
 }
 

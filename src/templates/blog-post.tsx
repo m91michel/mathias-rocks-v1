@@ -1,59 +1,39 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { Link, graphql, PageProps } from "gatsby";
 
 import Bio from "../components/bio";
 import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 
-interface Props {
-  data: {
-    markdownRemark: {
-      id: string;
-      excerpt: string;
-      html: string;
-      frontmatter: Frontmatter;
-    };
-    site: {
-      siteMetadata: {
-        title: string;
-      };
-    };
-  };
-  pageContext: any;
-}
-const BlogPostTemplate: React.FC<Props> = (props) => {
+type PageContext = {
+  previous: Queries.MarkdownRemark;
+  next: Queries.MarkdownRemark;
+};
+
+const BlogPostTemplate: React.FC<PageProps<Queries.BlogPostBySlugQuery, PageContext>> = (props) => {
   const post = props.data.markdownRemark;
   const { previous, next } = props.pageContext;
-  const subtitle = post.frontmatter.date;
+  const subtitle = post?.frontmatter?.date;
+  const keywords = post?.frontmatter?.keywords as string[];
+  const tags = post?.frontmatter?.tags as string[];
 
   return (
-    <Layout
-      title={post.frontmatter.title}
-      subtitle={subtitle}
-      tags={post.frontmatter.tags}
-    >
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-        keywords={post.frontmatter.keywords}
-      />
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+    <Layout title={post?.frontmatter?.title} subtitle={subtitle} tags={tags}>
+      <SEO title={post?.frontmatter?.title} description={post?.frontmatter?.description || post?.excerpt} keywords={keywords} />
+      <div dangerouslySetInnerHTML={{ __html: post?.html || "" }} />
       <div className="my-5">
-        <ul
-          className="flex flex-wrap list-none p-0 ml-0 justify-between"
-          style={{ listStyle: `none` }}
-        >
+        <ul className="flex flex-wrap list-none p-0 ml-0 justify-between" style={{ listStyle: `none` }}>
           <li className="flex-1 w-full">
             {previous && (
-              <Link to={`/blog${previous.fields.slug}`} rel="prev">
-                ← {previous.frontmatter.title}
+              <Link to={`/blog${previous.fields?.slug}`} rel="prev">
+                ← {previous.frontmatter?.title}
               </Link>
             )}
           </li>
           <li className="flex-1 w-full mt-0 text-right">
             {next && (
-              <Link to={`/blog${next.fields.slug}`} rel="next">
-                {next.frontmatter.title} →
+              <Link to={`/blog${next.fields?.slug}`} rel="next">
+                {next.frontmatter?.title} →
               </Link>
             )}
           </li>
