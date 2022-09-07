@@ -19,7 +19,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-image`,
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -86,6 +85,12 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: ['/about_old', '/thanks'],
+      }
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
