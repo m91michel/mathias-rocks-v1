@@ -86,6 +86,12 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-robots-txt`,
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: ['/about_old', '/thanks'],
+      }
+    },
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
