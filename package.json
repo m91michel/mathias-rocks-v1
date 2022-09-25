@@ -21,7 +21,7 @@
     "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
     "@types/react-helmet": "^6.1.5",
-    "autoprefixer": "^10.4.11",
+    "autoprefixer": "^10.4.12",
     "bulma": "^0.9.4",
     "gatsby": "^4.23.0",
     "gatsby-image": "^3.11.0",
