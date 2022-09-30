@@ -9,7 +9,7 @@ type Props = {
 
 const PostTile = ({ post }: Props) => {
   const title = post?.frontmatter?.title || post?.fields?.slug;
-  const link = `/blog${post?.fields?.slug}`;
+  const link = `/blog${post?.fields?.slug}/`;
   return (
     <Fragment>
       <div className="column">
