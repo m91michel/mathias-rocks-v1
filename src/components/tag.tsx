@@ -9,7 +9,7 @@ type Props = {
 
 const Tag: React.FC<Props> = ({ tag, className }) => {
   return (
-    <Link to={`/tags/${encodeUrl(tag)}`}>
+    <Link to={`/tags/${encodeUrl(tag)}/`}>
       <span className={`tag is-link ${className}`}>#{tag}</span>
     </Link>
   );
