@@ -23,7 +23,6 @@ Seiten die mit 🤷‍♂️ markiert sind, bieten leider keinen Bonus für Freu
 ## Crypto
 
 - [Bitpanda](https://www.bitpanda.com/?ref=1744922665805272769) - Wir erhalten beide 10€, wenn du mind. 25€ tradest.
-- [Nuri](https://app.nuri.com/r/MBVJ-89RF) (Ex Bitwala) - Wir erhalten beide 30€ nach deinem ersten Trade.
 - [Crypto.com](https://crypto.com/app/byjhe4vd6c) - Wir bekommen beide $25 USD, wenn du 2500 CRO stakest.
 - [Pool by Cake](https://pool.cakedefi.com/#?ref=624360) - Wir erhalten beide einen 20 USD Bonus
 - [BlockFi](https://blockfi.com/?ref=87125bfa) - Wir bekommen beide 10€, wenn du 100€ hinterlegst.

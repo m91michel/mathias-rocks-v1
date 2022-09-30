@@ -3,4 +3,4 @@ title: Datenschutz
 template: page
 ---
 
-Some datenschutz shit
+The data privacy policy will be added soon.
