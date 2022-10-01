@@ -1,0 +1,20 @@
+[build]
+  functions = "functions"
+
+[[redirects]]
+  from = "https://mathias-michel.netlify.app/*"
+  to = "https://mathias.rocks/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.mathias.rocks/*"
+  to = "https://mathias.rocks/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://mathias.rocks/*"
+  to = "https://mathias.rocks/:splat"
+  status = 301
+  force = true

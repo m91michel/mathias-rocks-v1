@@ -10,7 +10,7 @@ const Footer = () => (
         <Link href="https://www.gatsbyjs.org">Gatsby</Link>
       </div>
       <div>
-        <Link to="/imprint">Imprint</Link>
+        <Link to="/imprint/">Imprint</Link>
       </div>
     </div>
   </footer>
