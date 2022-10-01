@@ -3,10 +3,9 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "sunday"
+      interval: "daily"
     target-branch: "dev"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 3
     ignore:
       - dependency-name: postcss
         versions:
