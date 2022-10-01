@@ -2,7 +2,7 @@
 title: "Month 1: My resume of the first month"
 date: "2022-10-01"
 description: "The first month of my "four projects in four months" has come to an end. Let's talk about what I accomplished, what I learned, before concluding."
-keywords: [sabbatical, startup, personal]
+keywords: ["sabbatical", "startup", "personal"]
 tags: ["personal", "4 Projects in 4 Months"]
 ---
 
