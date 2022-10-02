@@ -156,7 +156,7 @@ module.exports = {
         short_name: `Mathias.rocks`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#4d83db`,
         display: `minimal-ui`,
         icon: `content/assets/logo.png`,
       },
