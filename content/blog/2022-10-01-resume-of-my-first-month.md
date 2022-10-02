@@ -1,12 +1,12 @@
 ---
 title: "Month 1: My resume of the first month"
-date: "2022-10-01"
-description: "The first month of my "four projects in four months" has come to an end. Let's talk about what I accomplished, what I learned, before concluding."
-keywords: ["sabbatical", "startup", "personal"]
-tags: ["personal", "4 Projects in 4 Months"]
+date: 2022-10-01
+description: "The first month of my four projects in four months has come to an end. Let's talk about what I accomplished, what I learned, before concluding."
+keywords: [sabbatical, startup, personal]
+tags: [personal, "4 Projects in 4 Months"]
 ---
 
-The first month of my "four projects in four months" has come to an end. Let's talk about what I accomplished, what I learned, before concluding.
+The first month of my [4 projects in 4 months](/blog/2022-08-10-4-projects-in-4-months/) has come to an end. Let's talk about what I accomplished, what I learned, before concluding.
 
 ![einfachcrypto.de Market Dashboard](./assets/2022-10-01/einfachcrypto-market-dashboard.png)
 
@@ -35,25 +35,23 @@ The first month of my "four projects in four months" has come to an end. Let's t
 
 ## What did I learn?
 - **GatsbyJS**: I improved my knowledge of GatsbyJS.
-  - Learning here is, that consumes more effort than expected for basic problems like adding a sitemap. There is a nice plugin system, but these plugins still need more configuration than expected as each content type need to be defined.
-  - And local build time is quite slow as all content is fetched.
-- **SEO**: I improved my SEO knowledge in terms of on-page optimizations.
-  - I improved the link structure as I observed warnings in Google Search Console. The lesson here was that Gatsby adds a trailing slash (`../slug/`) with a redirect and I used links without a slash. (`../slug`), which caused these redirects.
-  - I learned how to configure Netlify to add redirects for not-available pages 
-  - I tried out some tools like Screaming Frog to analyze my website and improve some headings.
-- **Supabase**: I improved my knowledge of Supabase by using it as my database of coin data. I configured [RLS](https://supabase.com/docs/learn/auth-deep-dive/auth-row-level-security) for my tables and experimented with the [realtime feature](https://supabase.com/docs/guides/realtime) for live pricing updates. 
-- **No-Code**: I am using n8n for background tasks like updating coin prices. I optimized my workflow here to  
-- **Cloud functions** learned the use of Netlify's cloud function which I use to consume the up-to-date data from Supabase.
-- **Contentful**: How to render rich text content on a GatsbyJS page. I thought it is easier, but you have to implement your own [rich text render].
-- **Tailwind**: I practiced the use of Tailwind and learned how dark mode works. (Not enabled yet 🙂)
-- **Social media**: I used Twitter more often than usual and tweeted with #buildInPublic. My result is that I have now 10 new followers 🎉.
-- **Data privacy** is a pain if I want to integrate widgets from external websites. 
+  - One lesson here is that Gatsby requires more effort than expected for simple tasks like adding a sitemap. Although there is a nice plugin system, these plugins require more configuration than expected because each content type must be defined.
+  - Furthermore, the local build time is quite long because all content data is fetched.
+- **SEO**: In terms of on-page optimizations, I improved my SEO knowledge.
+  - As I noticed warnings in Google Search Console, I improved the link structure. The lesson here was that Gatsby adds a trailing slash (`../slug/`) with a redirect, and I used links that did not have a slash (`../slug`), resulting in these redirects.
+  - I learned how to configure Netlify to add redirects for unavailable pages
+  - I used [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) to analyze my website and improve some headings.
+- **Supabase**: I improved my understanding of Supabase by using it as my coin data database. For my tables, I enabled [RLS](https://supabase.com/docs/learn/auth-deep-dive/auth-row-level-security) and experimented with the [realtime feature](https://supabase.com/docs/guides/realtime).
+- **No-Code**: I use n8n for background tasks such as coin price updates. This is where I improved my workflow.
+- **Cloud functions** I learned how to use Netlify's cloud function to consume up-to-date data from Supabase.
+- **Contentful**: How to display rich text on a GatsbyJS page. I thought it would be simpler, but you'll have to create your own [rich text render](https://www.npmjs.com/package/@contentful/rich-text-react-renderer).
+- **Tailwind**: I practiced using Tailwind and discovered how dark mode works. (Not yet enabled)
+- **Social media**: I used Twitter more than usual and used the hashtag #buildInPublic. As a result, I now have 10 new followers 🎉.
+- **Data privacy**: Integrating widgets from external websites is difficult due to data privacy concerns. 
 
 ## Resume: What is a success?
-I would say yes. I shipped a lot of features for einfachcrypto.de and improved my skill set during this month. I have now the basis to compare projects and improve my research. 
-One missing part is to get some feedback from some users. This is something I will do if I talk with friends and people who DM me on Instagram.
+Yes, I would say. During this month, I shipped a lot of features for einfachcrypto.de and improved my skill set. I now have a foundation for comparing projects and improving my research.
+One thing that is missing is some user feedback. If I talk to friends or people who DM me on Instagram, I will do this.
 
-## What is next
-- SEO and Marketing
 
 PS: You can follow my daily progress on [Twitter](https://twitter.com/m91michel).
