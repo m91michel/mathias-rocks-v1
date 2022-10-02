@@ -12,7 +12,7 @@ Since 2017 I am interested in the topic Bitcoin and blockchain. Beside the inves
 
 The financial industry will experience the greatest disruption from blockchain because it is characterized by high costs, slow transactions, and unnecessary intermediaries. Another aspect is the centralized and outdated infrastructure, which has resulted in a long period of limited innovation in this area. Bitcoin and the underlying blockchain were invented by Satoshi Nakamoto as a solution during the 2008 financial crisis precisely for this reason. Today, 11 years after the white paper was published, a whole blockchain economy has formed around Bitcoin. Since 2018, the term Decentralized Finance (DeFi) has spread, describing various services such as StableCoins, Trading, Lending or Tokenization of assets.
 
-These are a few exciting projects to mention here: [BlockFi](https://blockfi.com" target="\_blank"), [MakerDao](https://makerdao.com/en/), [Compound Finance](https://compound.finance/), [Dharma](https://www.dharma.io/), [Bitwala](https://www.bitwala.com/de/)
+These are a few exciting projects to mention here: [BlockFi](https://blockfi.com), [MakerDao](https://makerdao.com/en/), [Compound Finance](https://compound.finance/), [Dharma](https://www.dharma.io/), [Bitwala](https://www.bitwala.com/de/)
 
 ### Supply Chain
 

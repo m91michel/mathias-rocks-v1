@@ -13,7 +13,7 @@ Link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 Output: [github.com](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 ```
 
-I found this workflow annoying after some time, so I started looking for a solution and found Automator from Apple. This tool is built into macOS and allows you to run automation workflow. You can then a automation by a keyboard shortcut. In this blog post, I'll show you how you can also do that.
+I found this workflow annoying after some time, so I started looking for a solution and found Automator from Apple. This tool is built into macOS and allows you to run automation workflow. You can then run this workflow with a keyboard shortcut. In this blog post, I'll show you how you can also do that.
 
 ## Let's create the script
 

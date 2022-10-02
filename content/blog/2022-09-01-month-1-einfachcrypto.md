@@ -6,7 +6,7 @@ keywords: [sabbatical, startup, personal]
 tags: [personal, "4 Projects in 4 Months"]
 ---
 
-My 4 Projects in 4 Months will begin with the topic of cryptocurrency, as outlined in my first blog article. The overall goal is to solve my own problems with cryptocurrency investing.
+My [4 Projects in 4 Months](/blog/2022-08-10-4-projects-in-4-months/) will begin with the topic of cryptocurrency, as outlined in my first blog article. The overall goal is to solve my own problems with cryptocurrency investing.
 
 This month is divided into several subprojects:
 
