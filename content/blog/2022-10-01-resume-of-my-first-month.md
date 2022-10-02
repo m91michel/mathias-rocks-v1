@@ -9,6 +9,8 @@ tags: [personal, "4 Projects in 4 Months"]
 The first month of my [4 projects in 4 months](/blog/2022-08-10-4-projects-in-4-months/) has come to an end. Let's talk about what I accomplished, what I learned, before concluding.
 
 ![einfachcrypto.de Market Dashboard](./assets/2022-10-01/einfachcrypto-market-dashboard.png)
+<p class="text-center">Screenshot of Market Dashboard</p>
+
 
 ## What did I achieve this month?
 
