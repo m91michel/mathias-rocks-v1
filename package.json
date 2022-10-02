@@ -86,6 +86,6 @@
     "prettier": "^2.7.1",
     "react-test-renderer": "^18.2.0",
     "sass": "^1.55.0",
-    "ts-jest": "^29.0.2"
+    "ts-jest": "^29.0.3"
   }
 }
