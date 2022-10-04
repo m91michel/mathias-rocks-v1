@@ -51,7 +51,7 @@ The first month of my [4 projects in 4 months](/blog/2022-08-10-4-projects-in-4-
 - **Social media**: I used Twitter more than usual and used the hashtag #buildInPublic. As a result, I now have 10 new followers 🎉.
 - **Data privacy**: Integrating widgets from external websites is difficult due to data privacy concerns. 
 
-## Resume: What is a success?
+## Resume: Is this month a success?
 Yes, I would say. During this month, I shipped a lot of features for einfachcrypto.de and improved my skill set. I now have a foundation for comparing projects and improving my research.
 One thing that is missing is some user feedback. If I talk to friends or people who DM me on Instagram, I will do this.
 
