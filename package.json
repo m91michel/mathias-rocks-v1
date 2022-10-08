@@ -23,7 +23,7 @@
     "@types/react-helmet": "^6.1.5",
     "autoprefixer": "^10.4.12",
     "bulma": "^0.9.4",
-    "gatsby": "^4.24.1",
+    "gatsby": "^4.24.2",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.24.0",
     "gatsby-plugin-google-analytics": "^4.24.0",
@@ -74,7 +74,7 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.18.6",
-    "@types/jest": "^29.1.1",
+    "@types/jest": "^29.1.2",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
