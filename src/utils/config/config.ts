@@ -1,0 +1,1 @@
+export const consentCookieName = 'gatsby-gdpr-google-analytics';
