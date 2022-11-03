@@ -8,31 +8,33 @@ const projects = [
     title: "EinfachCrypto.de",
     link: "https://EinfachCrypto.de",
     description:
-      "German Website about cryptocurrencies. I build here tools which help me to get some insight about the current state of the crypto market. This project also have a instagram page, where I create informal post or just share some memes.",
-  },
-  {
-    title: "Restaurant-Penelope",
-    link: "https://restaurant-penelope.de/",
-    description:
-      "This Greek restaurant wanted to have a new website. Here we created the concept together, chose a theme and implemented the website. The implementation was done with Wordpress. ",
+      "This is a German website about cryptocurrencies. I have built some tools here to help me get some insight about the current state of the crypto market. This project started as an Instagram account.",
+    tags: ["React", "Typescript", "Gatsby", "GraphQL", "Supabase", "Tailwind"],
   },
   {
     title: "Alexander Wunsch",
     link: "https://alexander-wunsch.de/",
     description:
-      "Alexander has developed a concept to lose weight and needed technical advice for his business. I am currently helping him with technical challenges and answering all his open questions. Besides creating and maintaining his website, I created a cool logo for his brand and helped him develop and implement the branding.",
+      "Alexander is a nutrition and dietary coach who helps people lose weight. I advise him with technical solutions for his business and built his website. I also created his logo and the design of his website.",
+    tags: ["WordPress", "Divi Theme", "Figma"],
+  },
+  {
+    title: "Restaurant-Penelope",
+    link: "https://restaurant-penelope.de/",
+    description:
+      "Penelope is a Greek restaurant in Fürth that wanted a nice looking website. I created the concept, chose a theme, and implemented the website using WordPress.",
+    tags: ["WordPress"],
   },
   {
     title: "Großkopf Elektrotechnik GmbH",
     link: "https://grosskopf-elektrotechnik-gmbh.de/",
-    description:
-      "I set up the website with Wordpress and provide technical support.",
+    description: "This company provides electrical services and needed a website. I helped with setting up WordPress and provided technical support.",
+    tags: ["WordPress", "Hestia Thema", "Elementor"],
   },
   {
     title: "Personal Wiki",
     link: "https://m91michel.github.io/knowledge/",
-    description:
-      "A personal wiki for myself, where I collect interesting information.",
+    description: "A personal wiki for myself, where I collect interesting information.",
   },
 ];
 
@@ -47,8 +49,18 @@ const Projects: React.FC = () => {
           <div className="column is-half" key={project.link}>
             <Link href={project.link}>
               <div className="notification is-info">
-                <h1 className="has-text-white">{project.title}</h1>
+                <h2 className="has-text-white">{project.title}</h2>
                 <p>{project.description}</p>
+                {project.tags && (
+                  <div>
+                    <p className="font-bold">Tech Stack:</p>
+                    <div className="tags">
+                      {project.tags?.map((tag) => (
+                        <span className="tag is-link is-light">{tag}</span>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             </Link>
           </div>
