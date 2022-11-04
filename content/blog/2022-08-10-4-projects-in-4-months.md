@@ -36,9 +36,11 @@ The first month will follow my passion - cryptocurrencies and blockchain! I star
 - Follow my heart topic, build utilities for myself and collect knowledge. The goal is also to help people and share information about cryptocurrencies.
 - The goal is not to make money with this project but rather to grow an audience within this space.
 
+Update: You can read [the results here](/blog/2022-09-01-month-1-einfachcrypto/)
+
 ### Month 2: Helping a friend with marketing and setup of tools
 
-I am already supporting a friend with technical and marketing consulting. He started a [health coaching business](https://alexander-wunsch.de/) and we want to scale his business in October 2022. I will update his landing page, find a great webinar software and help him build a lead magnet like a free newsletter course.
+I am already supporting a friend with technical and marketing consulting. He started a [health coaching business](https://alexander-wunsch.de/) and we want to scale his business in October 2022. I will update his landing page, find great webinar software and help him build a lead magnet like a free newsletter course.
 
 **Goal**
 
