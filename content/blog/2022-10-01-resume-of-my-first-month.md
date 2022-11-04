@@ -1,5 +1,5 @@
 ---
-title: "Month #1: My resume of the first month"
+title: "Month #1: My summary of the first month"
 date: 2022-10-01
 description: "The first month of my four projects in four months has come to an end. Let's talk about what I accomplished, what I learned, before concluding."
 keywords: [sabbatical, startup, personal]
@@ -49,11 +49,11 @@ The first month of my [4 projects in 4 months](/blog/2022-08-10-4-projects-in-4-
 - **Contentful**: How to display rich text on a GatsbyJS page. I thought it would be simpler, but you'll have to create your own [rich text render](https://www.npmjs.com/package/@contentful/rich-text-react-renderer).
 - **Tailwind**: I practiced using Tailwind and discovered how dark mode works. (Not yet enabled)
 - **Social media**: I used Twitter more than usual and used the hashtag #buildInPublic. As a result, I now have 10 new followers 🎉.
-- **Data privacy**: Integrating widgets from external websites is difficult due to data privacy concerns. 
+- **Data privacy**: Integrating widgets from external websites is difficult due to data privacy concerns.
 
-## Resume: Is this month a success?
+## Summary: Is this month a success?
 Yes, I would say. During this month, I shipped a lot of features for einfachcrypto.de and improved my skill set. I now have a foundation for comparing projects and improving my research.
-One thing that is missing is some user feedback. If I talk to friends or people who DM me on Instagram, I will do this.
+One thing that is missing is user feedback. I will do this by talking to friends or people who DM me on Instagram.
 
 
 PS: You can follow my daily progress on [Twitter](https://twitter.com/m91michel).
