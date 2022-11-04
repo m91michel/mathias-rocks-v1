@@ -6,10 +6,10 @@ keywords: [sabbatical, startup, personal]
 tags: [personal, "4 Projects in 4 Months"]
 ---
 
-I completed the second month of my [4 projects in 4 months](/blog/2022-08-10-4-projects-in-4-months/). Here's what I accomplished and what I learned.
+I completed the second month of my [4 projects in 4 months](/blog/2022-08-10-4-projects-in-4-months/). Here's what I have accomplished and what I have learned.
 
 ## Main goal
-The primary objective of this project was to create a new design for the website of Alexander-Wunsch.de. Our first version was built using WordPress and Elementor, which had an outdated design. So the goal was to rebuild all pages using Divi Theme and create a more visually appealing design. The second goal was to think about marketing strategies, especially SEO opportunities. We wanted to find a tool for SEO research, analyze competitors, and check if there are opportunities to get organic traffic.
+The primary objective of this project was to create a new design for the website of Alexander-Wunsch.de. Our first version was built with WordPress and Elementor, which had an outdated design. Therefore, the goal was to rebuild all pages using Divi Theme and create a more visually appealing design. The second goal was to think about marketing strategies, especially SEO opportunities. We wanted to find a tool for SEO research, analyze competitors, and check if there are opportunities to generate organic traffic.
 
 ## Achievements
 ![alexander-wunsch.de new website](./assets/2022-10-30/alexander-wunsch-homepage.png)

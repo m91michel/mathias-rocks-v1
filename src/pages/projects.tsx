@@ -9,7 +9,7 @@ const projects = [
     link: "https://EinfachCrypto.de",
     description:
       "This is a German website about cryptocurrencies. I have built some tools here to help me get some insight about the current state of the crypto market. This project started as an Instagram account.",
-    tags: ["React", "Typescript", "Gatsby", "GraphQL", "Supabase", "Tailwind"],
+    tags: ["React", "Typescript", "Gatsby", "GraphQL", "Supabase", "Tailwind", "n8n"],
   },
   {
     title: "Alexander Wunsch",
