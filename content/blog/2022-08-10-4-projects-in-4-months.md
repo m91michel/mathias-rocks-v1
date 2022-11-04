@@ -36,7 +36,7 @@ The first month will follow my passion - cryptocurrencies and blockchain! I star
 - Follow my heart topic, build utilities for myself and collect knowledge. The goal is also to help people and share information about cryptocurrencies.
 - The goal is not to make money with this project but rather to grow an audience within this space.
 
-Update: You can read [the results here](/blog/2022-09-01-month-1-einfachcrypto/)
+Update: You can read [the results here](/blog/2022-10-01-resume-of-my-first-month/)
 
 ### Month 2: Helping a friend with marketing and setup of tools
 
@@ -46,6 +46,8 @@ I am already supporting a friend with technical and marketing consulting. He sta
 
 - Increase knowledge in marketing and building a course-based coaching
 - I will get a provision-based monetization, so this project is a potentially passive income stream
+
+Update: You can read [the results here](/blog/2022-11-04-project-alexander-wunsch/)
 
 ### Month 3: Building a Micro SaaS (Micro Software as a Service) business
 
