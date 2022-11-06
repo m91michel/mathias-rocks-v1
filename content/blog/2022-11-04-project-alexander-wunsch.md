@@ -32,7 +32,7 @@ Our next focus will be an online webinar, where Alexander will present how someo
 
 I also prepared a list with further marketing ideas for the future, but we are focusing on one thing at a time. So this is something we will work on in the coming months. 
 
-## Wrap-up: Is this month a success?
+## Wrap-up: We're happy with the results.
 The important goal for Alexander was to finish the website because he will hold a lecture for a local farmers association in November. The next milestone will be online webinars, for which we also need a nice-looking website. He is happy with the result so far. We still have to check how well the homepage converts and make some adjustments if necessary.
 
 The main accomplishment for me was that I had the time to intensify my knowledge of SEO. I was able to do keyword research and get a feel for how ranking works. I now have a lot of ideas on how to get backlinks for SaaS and startup projects, and a list of growth tactics. This knowledge is something I can use in future projects.
