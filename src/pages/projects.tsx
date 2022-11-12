@@ -5,11 +5,17 @@ import SEO from "../components/layout/seo";
 
 const projects = [
   {
+    title: "illostrationAI",
+    link: "https://www.illostration.com",
+    description: "A web app that uses machine learning to generate illustrations.",
+    tags: ["NextJS", "Typescript", "Stripe", "Supabase", "Tailwind", "Vercel"],
+  },
+  {
     title: "EinfachCrypto.de",
     link: "https://EinfachCrypto.de",
     description:
       "This is a German website about cryptocurrencies. I have built some tools here to help me get some insight about the current state of the crypto market. This project started as an Instagram account.",
-    tags: ["React", "Typescript", "Gatsby", "GraphQL", "Supabase", "Tailwind", "n8n"],
+    tags: ["React", "Typescript", "Gatsby", "GraphQL", "Supabase", "Tailwind", "n8n", "Netlify"],
   },
   {
     title: "Alexander Wunsch",
@@ -30,12 +36,7 @@ const projects = [
     link: "https://grosskopf-elektrotechnik-gmbh.de/",
     description: "This company provides electrical services and needed a website. I helped with setting up WordPress and provided technical support.",
     tags: ["WordPress", "Hestia Thema", "Elementor"],
-  },
-  {
-    title: "Personal Wiki",
-    link: "https://m91michel.github.io/knowledge/",
-    description: "A personal wiki for myself, where I collect interesting information.",
-  },
+  }
 ];
 
 const Projects: React.FC = () => {
