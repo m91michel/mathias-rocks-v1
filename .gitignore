@@ -70,3 +70,4 @@ yarn-error.log
 .yarn-integrity
 
 /src/gatsby-types.d.ts
+node_modules
