@@ -57,7 +57,7 @@
     "tslint": "^6.1.3",
     "typeface-merriweather": "1.1.13",
     "typeface-montserrat": "1.1.13",
-    "typescript": "^4.8.4",
+    "typescript": "^4.9.3",
     "typography": "^0.16.21",
     "typography-theme-fairy-gates": "^0.16.19"
   },
