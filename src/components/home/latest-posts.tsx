@@ -26,11 +26,7 @@ export default function LatestPosts() {
 
 export const latestPostQuery = graphql`
   query LatestPost {
-    allMarkdownRemark(
-      limit: 3
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { collection: { eq: "blog" } } }
-    ) {
+    allMarkdownRemark(limit: 3, sort: { frontmatter: { date: DESC } }, filter: { fields: { collection: { eq: "blog" } } }) {
       edges {
         node {
           excerpt
