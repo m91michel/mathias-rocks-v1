@@ -1,14 +1,9 @@
 import React from "react";
-import { StaticQuery, graphql } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
+import { graphql, useStaticQuery } from "gatsby";
+import { GatsbyImage, getImage, getImageData } from "gatsby-plugin-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTwitter,
-  faGithub,
-  faXing,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faGithub, faXing, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Navigation from "../layout/navigation";
 import Link from "../general/Link";
 
@@ -31,59 +26,44 @@ const socialButtons = [
   },
 ];
 
-class HeaderHero extends React.Component {
-  render() {
-    return (
-      <StaticQuery
-        query={headerHeroQuery}
-        render={(data) => {
-          const { author, social, bio } = data.site.siteMetadata;
-          return (
-            <header className="hero is-info is-medium is-bold">
-              <Navigation />
+const HeaderHero = () => {
+  const { site, avatar } = useStaticQuery(headerHeroQuery);
+  const { author, social, bio } = site.siteMetadata;
 
-              <div className="hero-body">
-                <div className="container">
-                  <div className="media-content">
-                    <div className="content has-text-centered">
-                      <GatsbyImage
-                        image={data.avatar.childImageSharp.gatsbyImageData}
-                        className="mx-auto"
-                        alt={author}
-                        imgStyle={{
-                          borderRadius: `50%`,
-                        }}
-                      />
-                      <h1 className="title is-uppercase is-spaced is-2">
-                        {author}
-                      </h1>
-                      <h2 className="subtitle">{bio}</h2>
-                      <div className="subtitle">
-                        {socialButtons.map((socialItem) => (
-                          <Link
-                            key={socialItem.id}
-                            href={social[socialItem.id]}
-                          >
-                            <span className="icon social-button hover:text-sky-800">
-                              <FontAwesomeIcon
-                                icon={socialItem.icon}
-                                size="1x"
-                              />
-                            </span>
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  return (
+    <header className="hero is-info is-medium is-bold">
+      <Navigation />
+
+      <div className="hero-body">
+        <div className="container">
+          <div className="media-content">
+            <div className="content has-text-centered">
+              <GatsbyImage
+                image={getImage(avatar)!}
+                className="mx-auto"
+                alt={author}
+                imgStyle={{
+                  borderRadius: `50%`,
+                }}
+              />
+              <h1 className="title is-uppercase is-spaced is-2">{author}</h1>
+              <h2 className="subtitle">{bio}</h2>
+              <div className="subtitle">
+                {socialButtons.map((socialItem) => (
+                  <Link key={socialItem.id} href={social[socialItem.id]}>
+                    <span className="icon social-button hover:text-sky-800">
+                      <FontAwesomeIcon icon={socialItem.icon} size="1x" />
+                    </span>
+                  </Link>
+                ))}
               </div>
-            </header>
-          );
-        }}
-      />
-    );
-  }
-}
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
 
 const headerHeroQuery = graphql`
   query HeaderHeroQuery {

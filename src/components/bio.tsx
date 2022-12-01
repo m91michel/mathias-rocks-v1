@@ -1,57 +1,42 @@
-/**
- * Bio component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React, { ReactNode } from "react";
-import { StaticQuery, graphql } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
+import { graphql, useStaticQuery } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Link from "./general/Link";
 
 type Props = {
   children: ReactNode;
 };
-const Container: React.FC<Props> = ({ children }) => (
-  <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>
-);
+const Container: React.FC<Props> = ({ children }) => <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>;
 
 function Bio() {
+  const { site, avatar } = useStaticQuery(bioQuery);
+  const { author, social } = site.siteMetadata;
+
   return (
-    <StaticQuery
-      query={bioQuery}
-      render={(data) => {
-        const { author, social } = data.site.siteMetadata;
-        return (
-          <Container>
-            <article className="media">
-              <figure className="media-left">
-                <div className="image is-64x64">
-                  <GatsbyImage
-                    image={data.avatar.childImageSharp.gatsbyImageData}
-                    alt={author}
-                    imgStyle={{
-                      borderRadius: `50%`,
-                    }}
-                  />
-                </div>
-              </figure>
-              <div className="media-content">
-                <div className="content">
-                  <p>
-                    Written by <strong>{author}</strong> who lives and works in
-                    Fürth, Bavaria building useful things.
-                    {` `}
-                    <Link href={`${social.twitter}`}>Follow me on Twitter</Link>
-                  </p>
-                </div>
-              </div>
-            </article>
-          </Container>
-        );
-      }}
-    />
+    <Container>
+      <article className="media">
+        <figure className="media-left">
+          <div className="image is-64x64">
+            <GatsbyImage
+              image={getImage(avatar)!}
+              alt={author}
+              imgStyle={{
+                borderRadius: `50%`,
+              }}
+            />
+          </div>
+        </figure>
+        <div className="media-content">
+          <div className="content">
+            <p>
+              Written by <strong>{author}</strong> who lives and works in Fürth, Bavaria building useful things.
+              {` `}
+              <Link href={`${social.twitter}`}>Follow me on Twitter</Link>
+            </p>
+          </div>
+        </div>
+      </article>
+    </Container>
   );
 }
 
