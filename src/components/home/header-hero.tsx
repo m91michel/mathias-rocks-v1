@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage, getImageData } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faGithub, faXing, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -27,7 +27,7 @@ const socialButtons = [
 ];
 
 const HeaderHero = () => {
-  const { site, avatar } = useStaticQuery(headerHeroQuery);
+  const { site } = useStaticQuery(headerHeroQuery);
   const { author, social, bio } = site.siteMetadata;
 
   return (
@@ -38,10 +38,13 @@ const HeaderHero = () => {
         <div className="container">
           <div className="media-content">
             <div className="content has-text-centered">
-              <GatsbyImage
-                image={getImage(avatar)!}
-                className="mx-auto"
+              <StaticImage
+                src="../../images/profile-pic.jpg"
                 alt={author}
+                className="mx-auto"
+                width={170}
+                height={170}
+                layout="fixed"
                 imgStyle={{
                   borderRadius: `50%`,
                 }}
@@ -67,11 +70,6 @@ const HeaderHero = () => {
 
 const headerHeroQuery = graphql`
   query HeaderHeroQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        gatsbyImageData(width: 170, height: 170, layout: FIXED)
-      }
-    }
     site {
       siteMetadata {
         author

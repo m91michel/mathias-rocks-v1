@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 const NavLinks = [
   { name: "Home", to: "/" },
@@ -13,7 +13,7 @@ const NavLinks = [
 
 const Navigation: React.FC = () => {
   const [isExpanded, toggleExpansion] = useState(false);
-  const { site, logo } = useStaticQuery(navQuery);
+  const { site } = useStaticQuery(navQuery);
   const { author } = site.siteMetadata;
 
   return (
@@ -22,7 +22,7 @@ const Navigation: React.FC = () => {
         <div className="container">
           <div className="navbar-brand">
             <Link className="navbar-item" to={`/`}>
-              <GatsbyImage image={getImage(logo)!} alt={"Logo" + author} />
+              <StaticImage src="../../images/logo.png" alt={`Logo ${author}`} width={25} height={25} layout="fixed" />
               <span className="has-text-weight-bold" style={{ marginLeft: `5px` }}>
                 {author}
               </span>
@@ -55,11 +55,6 @@ const Navigation: React.FC = () => {
 
 const navQuery = graphql`
   query NavQuery {
-    logo: file(absolutePath: { regex: "/logo.png/" }) {
-      childImageSharp {
-        gatsbyImageData(width: 25, height: 25, layout: FIXED)
-      }
-    }
     site {
       siteMetadata {
         author

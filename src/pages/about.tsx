@@ -1,16 +1,12 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 import Link from "../components/general/Link";
 
 const PageTemplate: React.FC = () => {
-  const { aboutImage } = useStaticQuery(aboutQuery);
   const description = `My name is Mathias Michel, and I work as a Software Developer specializing in Web and Mobile development.`;
   const title = "About";
-  const image = getImage(aboutImage)!;
-  console.log(aboutImage);
 
   return (
     <Layout title="About Mathias">
@@ -35,7 +31,7 @@ const PageTemplate: React.FC = () => {
           </p>
         </div>
         <div className="flex-1 md:flex-1 max-md:pt-5 md:pt-0">
-          <GatsbyImage image={image} alt="Thats me in the mountains of Bavaria" />
+          <StaticImage src="../images/mm-alpen.jpg" alt="Thats me in the mountains of Bavaria" width={300} height={400} layout="fixed" />
         </div>
       </div>
     </Layout>
@@ -43,13 +39,3 @@ const PageTemplate: React.FC = () => {
 };
 
 export default PageTemplate;
-
-const aboutQuery = graphql`
-  query AboutQuery {
-    aboutImage: file(absolutePath: { regex: "/mm-alpen.jpg/" }) {
-      childImageSharp {
-        gatsbyImageData(width: 300, height: 400, layout: FIXED)
-      }
-    }
-  }
-`;

@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 import Link from "./general/Link";
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
 const Container: React.FC<Props> = ({ children }) => <div className="flex max-w-screen-sm mx-auto my-0">{children}</div>;
 
 function Bio() {
-  const { site, avatar } = useStaticQuery(bioQuery);
+  const { site } = useStaticQuery(bioQuery);
   const { author, social } = site.siteMetadata;
 
   return (
@@ -17,9 +17,12 @@ function Bio() {
       <article className="media">
         <figure className="media-left">
           <div className="image is-64x64">
-            <GatsbyImage
-              image={getImage(avatar)!}
-              alt={author}
+            <StaticImage
+              src="../images/profile-pic.jpg"
+              alt={`Bio ${author}`}
+              width={50}
+              height={50}
+              layout="fixed"
               imgStyle={{
                 borderRadius: `50%`,
               }}
@@ -29,7 +32,7 @@ function Bio() {
         <div className="media-content">
           <div className="content">
             <p>
-              Written by <strong>{author}</strong> who lives and works in Fürth, Bavaria building useful things.
+              Written by {author} from Germany who loves building useful things.
               {` `}
               <Link href={`${social.twitter}`}>Follow me on Twitter</Link>
             </p>
@@ -42,11 +45,6 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        gatsbyImageData(width: 50, height: 50, layout: FIXED)
-      }
-    }
     site {
       siteMetadata {
         author
