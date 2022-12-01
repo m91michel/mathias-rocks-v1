@@ -47,25 +47,21 @@ module.exports = {
                 });
               });
             },
-            query: `
-              {
-                allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                ) {
-                  nodes {
-                    excerpt
-                    html
-                    fields { 
-                      slug 
-                    }
-                    frontmatter {
-                      title
-                      date
-                    }
+            query: `{
+              allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+                nodes {
+                  excerpt
+                  html
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                    date
                   }
                 }
               }
-            `,
+            }`,
             output: "/rss.xml",
             title: "Mathias.rocks Blog",
             // optional configuration to insert feed reference in pages:
@@ -88,8 +84,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        excludes: ['/about_old', '/thanks'],
-      }
+        excludes: ["/about_old", "/thanks"],
+      },
     },
     {
       resolve: `gatsby-plugin-typography`,

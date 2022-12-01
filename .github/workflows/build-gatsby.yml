@@ -19,12 +19,12 @@ jobs:
       - name: Set Node.js
         uses: actions/setup-node@master
         with:
-          node-version: 14.x
+          node-version: 18.x
           cache: "yarn"
 
       - name: Caching Gatsby
         id: gatsby-cache-build
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             public
