@@ -25,7 +25,7 @@ const PageTemplate: React.FC<Props> = ({ data, pageContext }) => {
         description={page.frontmatter.description || ""}
         slug={pageContext.slug}
       />
-      <div dangerouslySetInnerHTML={{ __html: page.html }} />
+      <div dangerouslySetInnerHTML={{ __html: page.html }} className="prose mx-auto" />
     </Layout>
   );
 };

@@ -23,11 +23,6 @@ updates:
       - dependency-name: gatsby-remark-responsive-iframe
         versions:
           - 4.0.0
-      - dependency-name: gatsby-image
-        versions:
-          - 2.11.0
-          - 3.0.0
-          - 3.3.0
       - dependency-name: gatsby-source-filesystem
         versions:
           - 2.11.1

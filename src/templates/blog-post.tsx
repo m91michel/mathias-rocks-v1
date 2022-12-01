@@ -20,9 +20,9 @@ const BlogPostTemplate: React.FC<PageProps<Queries.BlogPostBySlugQuery, PageCont
   return (
     <Layout title={post?.frontmatter?.title} subtitle={subtitle} tags={tags}>
       <SEO title={post?.frontmatter?.title} description={post?.frontmatter?.description || post?.excerpt} keywords={keywords} />
-      <div dangerouslySetInnerHTML={{ __html: post?.html || "" }} />
-      <div className="my-5">
-        <ul className="flex flex-wrap list-none p-0 ml-0 justify-between" style={{ listStyle: `none` }}>
+      <div dangerouslySetInnerHTML={{ __html: post?.html || "" }} className="prose mx-auto" />
+      <div className="py-10 mx-auto max-w-3xl">
+        <ul className="flex flex-wrap list-none px-0 py-4 ml-0 justify-between" style={{ listStyle: `none` }}>
           <li className="flex-1 w-full">
             {previous && (
               <Link to={`/blog${previous.fields?.slug}`} rel="prev">
@@ -38,9 +38,9 @@ const BlogPostTemplate: React.FC<PageProps<Queries.BlogPostBySlugQuery, PageCont
             )}
           </li>
         </ul>
+        <hr style={{ height: "1px" }} className="my-4" />
+        <Bio />
       </div>
-      <hr style={{ height: "1px" }} className="mb-4" />
-      <Bio />
     </Layout>
   );
 };
