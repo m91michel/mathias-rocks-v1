@@ -12,7 +12,7 @@ const PageTemplate: React.FC = () => {
     <Layout title="About Mathias">
       <SEO title={title} description={description} />
       <div className="md:flex">
-        <div className="md:flex-2 md:pr-5">
+        <div className="md:flex-2 md:pr-5 prose">
           <p>
             Hello and welcome! My name is Mathias Michel, and I work as a Software Developer specializing in Web and Mobile development. I
             graduated with a Bachelor of Computer Science &amp; Media from Technical University Nuremberg. I worked for{" "}
