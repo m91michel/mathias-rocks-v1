@@ -58,6 +58,8 @@ I subscribed to the [Micro SaaS Idea](https://microsaasidea.substack.com/) newsl
 - Use my skillset to build my own business including earning money.
 - The first approaches fail mostly so the main goal is to start doing and get into building a SaaS. New ideas and insight will come along the way.
 
+Update: You can read about the launch of [illostration.com here](/blog/2022-11-30-month-3-illostration/).
+
 ### Month 4: Open - no-code or MSaaS
 
 I haven't made a final decision for this month because I want to have the flexibility to decide later. I have two options here. Either I build something with a no-code platform (e.g. [bubble](https://bubble.io/)) or I start another micro SaaS business from the newsletter. Maybe I can also combine them and do both. ;)
