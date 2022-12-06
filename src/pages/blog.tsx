@@ -9,9 +9,9 @@ const Blog = ({ data }: PageProps<Queries.BlogPostsQuery>) => {
   const posts = data.allMarkdownRemark.edges.map(({ node }) => node) as Post[];
 
   return (
-    <Layout title="Latest Posts">
-      <SEO title="Blog" />
-      <div className="py-4 max-w-2xl mx-auto">
+    <Layout title="All Blog Posts" subtitle="Here's a list of all my blog posts">
+      <SEO title="All Blog Posts" />
+      <div className="py-4 max-w-2xl mx-auto border-t">
         {posts.map((post: Post) => (
           <PostTile key={post.fields?.slug} post={post} />
         ))}

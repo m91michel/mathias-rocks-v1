@@ -13,7 +13,7 @@ export default function LatestPosts() {
   return (
     <section className="container content">
       <div className="has-text-centered" style={titleStyle}>
-        <h1 className="title">Latest posts</h1>
+        <h1 className="title">Recent Posts</h1>
       </div>
       <div className="py-4 max-w-2xl mx-auto">
         {posts.map(({ node }) => (

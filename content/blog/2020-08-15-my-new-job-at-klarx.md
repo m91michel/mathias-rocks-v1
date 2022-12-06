@@ -1,7 +1,7 @@
 ---
 title: "My new Job at Klarx!"
 date: "2020-08-15"
-description: "My new Job at Klarx!"
+description: "I have some personal news to share. I've landed a new job at klarx GmbH."
 keywords: ["new job", news, klarx, developer]
 tags: [personal]
 ---

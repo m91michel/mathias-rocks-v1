@@ -1,7 +1,7 @@
 ---
 title: Into The White - My first drone video
 date: "2021-01-15"
-description: My first drone video
+description: I made a nice drone video about my last trip to Eibsee.
 keywords: [droneshot, into the white, drone video, DJI Mini 2]
 tags: [drones]
 ---
