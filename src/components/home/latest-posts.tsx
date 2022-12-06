@@ -15,7 +15,7 @@ export default function LatestPosts() {
       <div className="has-text-centered" style={titleStyle}>
         <h1 className="title">Latest posts</h1>
       </div>
-      <div style={{ margin: "20px 0 40px" }}>
+      <div className="py-4 max-w-2xl mx-auto">
         {posts.map(({ node }) => (
           <PostTile key={node.fields?.slug} post={node} />
         ))}

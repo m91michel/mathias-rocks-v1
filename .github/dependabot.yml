@@ -97,9 +97,6 @@ updates:
       - dependency-name: gatsby-plugin-styled-components
         versions:
           - 4.1.0
-      - dependency-name: "@fortawesome/free-brands-svg-icons"
-        versions:
-          - 5.15.3
       - dependency-name: "@types/node"
         versions:
           - 14.14.35

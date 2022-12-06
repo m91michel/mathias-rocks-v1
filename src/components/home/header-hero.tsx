@@ -1,28 +1,27 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faGithub, faXing, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Navigation from "../layout/navigation";
 import Link from "../general/Link";
+import { BsTwitter, BsGithub } from "react-icons/bs";
+import { FaXing, FaLinkedinIn } from "react-icons/fa";
 
 const socialButtons = [
   {
     id: "twitter",
-    icon: faTwitter,
+    icon: <BsTwitter />,
   },
   {
     id: "github",
-    icon: faGithub,
+    icon: <BsGithub />,
   },
   {
     id: "xing",
-    icon: faXing,
+    icon: <FaXing />,
   },
   {
     id: "linkedIn",
-    icon: faLinkedin,
+    icon: <FaLinkedinIn />,
   },
 ];
 
@@ -51,12 +50,10 @@ const HeaderHero = () => {
               />
               <h1 className="title is-uppercase is-spaced is-2">{author}</h1>
               <h2 className="subtitle">{bio}</h2>
-              <div className="subtitle">
+              <div className="flex justify-center">
                 {socialButtons.map((socialItem) => (
-                  <Link key={socialItem.id} href={social[socialItem.id]}>
-                    <span className="icon social-button hover:text-sky-800">
-                      <FontAwesomeIcon icon={socialItem.icon} size="1x" />
-                    </span>
+                  <Link key={socialItem.id} href={social[socialItem.id]} className="text-xl p-4 m-1 border rounded-full hover:bg-white !hover:text-[##3b8fce]">
+                    {socialItem?.icon}
                   </Link>
                 ))}
               </div>
