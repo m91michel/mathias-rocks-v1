@@ -20,7 +20,7 @@ const BlogPostTemplate: React.FC<PageProps<Queries.BlogPostBySlugQuery, PageCont
   return (
     <Layout title={post?.frontmatter?.title} subtitle={subtitle} tags={tags}>
       <SEO title={post?.frontmatter?.title} description={post?.frontmatter?.description || post?.excerpt} keywords={keywords} />
-      <div dangerouslySetInnerHTML={{ __html: post?.html || "" }} className="prose mx-auto" />
+      <div dangerouslySetInnerHTML={{ __html: post?.html || "" }} className="prose mx-auto prose-code:before:content-none prose-code:after:content-none prose-code:rounded" />
       <div className="py-10 mx-auto max-w-3xl">
         <ul className="flex flex-wrap list-none px-0 py-4 ml-0 justify-between" style={{ listStyle: `none` }}>
           <li className="flex-1 w-full">
