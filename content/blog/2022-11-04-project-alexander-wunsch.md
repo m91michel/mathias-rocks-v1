@@ -1,7 +1,7 @@
 ---
 title: "Month #2: Alexander-Wunsch.de"
 date: 2022-11-04
-description: "I completed the second month of my 4 projects in 4 months. Here's what I accomplished and what I learned."
+description: "I completed the second month of my four projects in four months. Here's what I accomplished and what I learned."
 keywords: [sabbatical, startup, personal]
 tags: [personal, "4 Projects in 4 Months"]
 ---

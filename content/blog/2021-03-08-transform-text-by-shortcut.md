@@ -1,7 +1,7 @@
 ---
 title: How to transform text by a shortcut
 date: "2021-03-08"
-description: My first drone video
+description: I will show you how you can use Apple Automator to transform text.
 keywords: [Automator, shortcut, macos, markdown]
 tags: [tutorials]
 ---

@@ -1,18 +1,18 @@
 import React, { ReactNode } from "react";
 import { Link as GatsbyLink } from "gatsby";
 
-interface Props {
+type Props = {
   href?: string;
   to?: string;
   children: ReactNode;
-}
+} & React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
-const Link: React.FC<Props> = ({ href, to, children }) => {
+const Link: React.FC<Props> = ({ href, to, children, ...others }) => {
   if (to) {
-    return <GatsbyLink to={to}>{children}</GatsbyLink>;
+    return <GatsbyLink to={to} {...others}>{children}</GatsbyLink>;
   }
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a href={href} target="_blank" rel="noopener noreferrer" {...others}>
       {children}
     </a>
   );

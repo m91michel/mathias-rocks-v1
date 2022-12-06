@@ -1,7 +1,7 @@
 ---
 title: "Month #1: einfachcrypto.de"
 date: "2022-09-01"
-description: My 4 Projects in 4 Months will begin with the topic of cryptocurrency, as outlined in my first blog article. The overall goal is to solve my own problems with cryptocurrency investing.
+description: My first month will begin with the topic of cryptocurrency, as outlined in my first blog article. The overall goal is to solve my own problems with cryptocurrency investing.
 keywords: [sabbatical, startup, personal]
 tags: [personal, "4 Projects in 4 Months"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: My Book Reading List
 date: "2020-03-13"
-description: My first drone video
+description: In this blog post, I share nice books that I have read.
 keywords: [my reading list, books, learning]
 tags: [personal]
 ---

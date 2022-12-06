@@ -16,7 +16,7 @@ const Blog = ({ data, pageContext: { tag } }: PageProps<Queries.PostsByTagsQuery
   return (
     <Layout title={title}>
       <SEO title={title} />
-      <div style={{ margin: "20px 0 40px" }}>
+      <div className="py-4 max-w-2xl mx-auto">
         {posts.map((post: Post) => (
           <PostTile key={post.fields?.slug} post={post} />
         ))}

@@ -1,7 +1,7 @@
 ---
 title: "Why I created a referral page?"
 date: "2021-03-21"
-description: "Why I created a referral page?"
+description: "I created a referral page where I share all my referral links."
 keywords: [bonus page, referral links]
 tags: [personal]
 ---
