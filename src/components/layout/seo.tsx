@@ -1,10 +1,3 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
@@ -13,7 +6,7 @@ import { openGraph } from "../../utils/og-image";
 interface Props {
   description?: string | null;
   lang?: string;
-  meta?: [];
+  meta?: any[];
   title?: string | null;
   keywords?: string[] | null;
   slug?: string;
@@ -24,7 +17,7 @@ const SEO: React.FC<Props> = ({
   lang = "en",
   meta = [],
   keywords = [],
-  title,
+  title
 }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -67,6 +60,10 @@ const SEO: React.FC<Props> = ({
           content: metaDescription,
         },
         {
+          name: "author",
+          content: site.siteMetadata.author,
+        },
+        {
           property: "og:url",
           content: title,
         },
@@ -83,6 +80,7 @@ const SEO: React.FC<Props> = ({
           content: metaDescription,
         },
         {
+          name: "image",
           property: "og:image",
           content: imageUrl,
         },
