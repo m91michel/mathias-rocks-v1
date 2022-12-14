@@ -6964,27 +6964,6 @@ gatsby-core-utils@^4.2.0, gatsby-core-utils@^4.3.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.3.0.tgz#80396b0bd090293cf8020d0c8efb3549dbe2b93a"
-  integrity sha512-O7SVgf8N+dWEL+1HqVCovd6P/RzSvT8cwslY8iU1QW9ZjTm3ZAESWBDznljo5p3Cjd6LQfKpPMKoyuSA4ehGag==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    fastq "^1.13.0"
-    file-type "^16.5.3"
-    fs-extra "^10.1.0"
-    got "^11.8.5"
-    import-from "^4.0.0"
-    lmdb "2.7.1"
-    lock "^1.1.0"
-    node-object-hash "^2.3.10"
-    proper-lockfile "^4.1.2"
-    resolve-from "^5.0.0"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
 gatsby-graphiql-explorer@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.2.0.tgz#e9ae46cc9b95a0b2bb7b571847e72f3dd914f123"
@@ -7390,19 +7369,19 @@ gatsby-transformer-remark@^6.3.0:
     unist-util-select "^3.0.4"
     unist-util-visit "^2.0.3"
 
-gatsby-transformer-sharp@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-5.2.0.tgz#8565ce1d38631d82a3baada993089ee823ae2ac8"
-  integrity sha512-uluVPz7qm2jJhOF0Q1bQjT41VD0Fr9pttG5EiFE275da9SroGHz9+rUJoS6uLYpRYkyRJfqDztfWtMAE73fo4Q==
+gatsby-transformer-sharp@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-5.3.0.tgz#ab3676adc1a847ca46edcebdd6b7221cb5e68c32"
+  integrity sha512-L/Dm/JP+758FfZ+KrGbzexHAGlLMj1pvoaVAiY1ec2YawXXDcNLAzJZDM7FS72LlOOzksF79Ei92DI9oLg89Eg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     bluebird "^3.7.2"
     common-tags "^1.8.2"
     fs-extra "^10.1.0"
-    gatsby-plugin-utils "^4.2.0"
+    gatsby-plugin-utils "^4.3.0"
     probe-image-size "^7.2.3"
-    semver "^7.3.7"
-    sharp "^0.30.7"
+    semver "^7.3.8"
+    sharp "^0.31.2"
 
 gatsby-worker@^2.2.0:
   version "2.2.0"
