@@ -2,13 +2,13 @@
 title: My Book Reading List
 date: "2020-03-13"
 description: In this blog post, I share nice books that I have read.
-keywords: [my reading list, books, learning]
+keywords: [books, learning]
 tags: [personal]
 ---
 
-This blog post is updated regularly and contains a list of books I have already read or books that are on my todo list. The given links all lead to Amazon.(Last update 31-01-2022)
+This blog post will be updated regularly and contains a list of books I have already read or books that are on my to-do list. The given links all lead to Amazon. (Last update: 29-12-2022)
 
-## Finished Books
+## The books I have read
 
 - [Rich Dad Poor Dad by Robert T. Kiyosaki](https://www.amazon.de/-/en/Rich-Dad-Poor-Teach-Middle/dp/1612680194/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587291564&sr=1-2) - [free on Spotify](https://open.spotify.com/artist/4mLAOPij255jqfnthGV59P)
 - [Cashflow Quadrant by Robert T. Kiyosaki](https://www.amazon.de/Cashflow-Quadrant-Rich-dad-poor/dp/3898798836/ref=sr_1_1?__mk_de_DE=ÅMÅŽÕÑ&crid=2TBWBFU6YN2V9&dchild=1&keywords=cashflow+quadrant&qid=1609365535&sprefix=cashflow%2Caps%2C185&sr=8-1) - [free on Spotify](https://open.spotify.com/artist/4mLAOPij255jqfnthGV59P)
@@ -33,10 +33,15 @@ This blog post is updated regularly and contains a list of books I have already 
 
 - [10xDNA by Frank Thelen](https://www.amazon.com/10xDNA-Mindset-Thriving-Frank-Thelen-ebook/dp/B08NYQDBQT/ref=sr_1_1?crid=178CPQW5OGYM&keywords=10xdna&qid=1643655225&s=books&sprefix=10xdn%2Cstripbooks-intl-ship%2C258&sr=1-1) - January
 - [Das Café am Rande der Welt by Strelecky John](https://www.amazon.com/Cafe-Edge-World-Story-Meaning/dp/0991392051/ref=pd_sim_1/146-6201825-2124523?pd_rd_w=Z2d0v&pf_rd_p=dee70060-7c6d-4721-a321-50a27281cd22&pf_rd_r=GCB1SWB1RCJPH8WR66KH&pd_rd_r=c9669535-a660-4eb5-adfa-acdbee28ca4d&pd_rd_wg=LOp7g&pd_rd_i=0991392051&psc=1) - January
+- [The Laws of Human Nature - Robert Greene](https://www.amazon.de/-/en/Laws-Human-Nature-Robert-Greene/dp/1781259194/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587293619&sr=1-3) - Not finished
+- [Deep Work by Cal Newport](https://www.amazon.de/Deep-Work-Focused-Success-Distracted/dp/0349411905/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=H9FVMLGKVJAI&keywords=deep+work&qid=1672321921&sprefix=deep+work%2Caps%2C94&sr=8-1) - Q2
+- [Kopf schlägt Kapital by Günter Faltin](https://www.amazon.de/Kopf-schl%C3%A4gt-Kapital-Unternehmen-Entrepreneur/dp/3423349131/ref=sr_1_1?keywords=kopf+schl%C3%A4gt+kapital&qid=1672321722&sprefix=kopf+sch%2Caps%2C96&sr=8-1) - Q3
+- [The Mom Test by Rob Fitzpatrick](https://www.amazon.de/Mom-Test-customers-business-everyone/dp/1492180742/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=4ZN5GLFB1MVW&keywords=the+mom+test&qid=1672322315&sprefix=the+mom+tes%2Caps%2C91&sr=8-1) - Q3
+- [Das Kind in dir muss Heimat finden by Stefanie Stahl](https://www.amazon.de/s?k=das+kind+in+dir+mu%C3%9F+heimat+finden&sprefix=das+k%2Caps%2C103&ref=nb_sb_ss_ts-doa-p_1_5) - Q3 - Not finished
+- [Zero to One by Peter Thiel](https://www.amazon.de/Zero-One-Notes-Startups-Future/dp/0553418289/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=A26GZLBGOFB1&keywords=zero+to+one&qid=1672321586&sprefix=zero+to+one%2Caps%2C89&sr=8-1) - December
 
 ## On my todo list
 
-- [The Laws of Human Nature - Robert Greene](https://www.amazon.de/-/en/Laws-Human-Nature-Robert-Greene/dp/1781259194/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587293619&sr=1-3)
 - [Thinking, Fast and Slow - Daniel Kahneman](https://www.amazon.de/-/en/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1587293470&sr=1-1)
 - [1984 - George Orwell](https://www.amazon.de/1984-George-Orwell/dp/3548234100/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=1984&qid=1613774126&sr=8-1)
 - [Psychologie der Massen - Gustave Le Bon](https://www.amazon.de/Psychologie-Massen-Gustave-Bon/dp/3868200266/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Psychologie+der+Massen&qid=1613774144&sr=8-1)
