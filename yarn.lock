@@ -7026,12 +7026,12 @@ gatsby-remark-responsive-iframe@^6.3.0:
     lodash "^4.17.21"
     unist-util-visit "^2.0.3"
 
-gatsby-remark-smartypants@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-6.3.0.tgz#4e834ca14fe9ac59faaf04adce0daac85ab572ad"
-  integrity sha512-kDQBOGFhHZSkOP0iyedzy6q+mXO+3Ce9j0GFajvGRjMu8w4qWJ3BnsksslVXARwtEBjiT7nwe4qhYG1qQe15sg==
+gatsby-remark-smartypants@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-smartypants/-/gatsby-remark-smartypants-6.4.0.tgz#04ade2ec4e990ed29d829ff32e9cec9b80bdaccd"
+  integrity sha512-MgJT+kkPyxfym+BiTxxiE4ikxIHErAhGEXtfV7nEl/OuSTluWvuzYdMbpt4a9jPT5Tr39Ji2Yei3xI/FBngvPg==
   dependencies:
-    "@babel/runtime" "^7.15.4"
+    "@babel/runtime" "^7.20.7"
     retext "^7.0.1"
     retext-smartypants "^4.0.0"
     unist-util-visit "^2.0.3"
