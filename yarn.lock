@@ -1614,10 +1614,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.17.9", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.9", "@babel/runtime@^7.3.4", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.20.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.6.tgz#facf4879bfed9b5326326273a64220f099b0fce3"
-  integrity sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.17.9", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.9", "@babel/runtime@^7.20.7", "@babel/runtime@^7.3.4", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.20.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.7.tgz#fcb41a5a70550e04a7b708037c7c32f7f356d8fd"
+  integrity sha512-UF0tvkUtxwAgZ5W/KrkHf0Rn0fdnLDU9ScxBrEVNUprE/MzirjK4MJUX1/BVDv00Sv8cljtukVK1aky++X1SjQ==
   dependencies:
     regenerator-runtime "^0.13.11"
 
@@ -5762,11 +5762,6 @@ emoji-regex@^9.2.2:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-emojis-list@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
-  integrity sha1-TapNnbAPmBmIDHn6RXrlsJof04k=
-
 emojis-list@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
@@ -7058,14 +7053,14 @@ gatsby-plugin-robots-txt@^1.8.0:
     "@babel/runtime" "^7.17.9"
     generate-robotstxt "^8.0.3"
 
-gatsby-plugin-sass@^6.3.1:
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-6.3.1.tgz#52180e9658fd0f4ff38777cfbcdf772cc7ebc807"
-  integrity sha512-H5qWtE3Jac3yD6zbUCxS0o3A6Kn8lx1BblNsjgwgrJGXgOlfTuplqP57ZbifaHJQcWKtNw550kBp50pX7HjuSQ==
+gatsby-plugin-sass@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-6.4.0.tgz#299ae359b2b9b54b0f8b4da2a0070a76f01bf9c0"
+  integrity sha512-6wBrq7TbhhewAUPVdpY8035J6bDj7WW0LYCYVVn9X7mukbZoa59SAfGiZbOcAU0U75KX1LrcPDoau6VwaeKpSg==
   dependencies:
-    "@babel/runtime" "^7.15.4"
-    resolve-url-loader "^3.1.4"
-    sass-loader "^10.1.1"
+    "@babel/runtime" "^7.20.7"
+    resolve-url-loader "^3.1.5"
+    sass-loader "^10.4.1"
 
 gatsby-plugin-sharp@^5.3.2:
   version "5.3.2"
@@ -9350,13 +9345,13 @@ loader-runner@^4.2.0:
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-4.2.0.tgz#d7022380d66d14c5fb1d496b89864ebcfd478384"
   integrity sha512-92+huvxMvYlMzMt0iIOukcwYBFpkYJdpl2xsZ7LrlayO7E8SOv+JJUEK17B/dJIHAOLMfh2dZZ/Y18WgmGtYNw==
 
-loader-utils@1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
-  integrity sha512-fkpz8ejdnEMG3s37wGL07iSBDg99O9D5yflE9RGNH3hRdx9SOwYfnGYdZOUIZitN8E+E2vkq3MUMYMvPYl5ZZA==
+loader-utils@^1.2.3:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.4.2.tgz#29a957f3a63973883eb684f10ffd3d151fec01a3"
+  integrity sha512-I5d00Pd/jwMD2QCduo657+YM/6L3KZu++pmX9VFncxaxvHcru9jx1lBaFft+r4Mt2jK0Yhp41XlRAihzPxHNCg==
   dependencies:
     big.js "^5.2.2"
-    emojis-list "^2.0.0"
+    emojis-list "^3.0.0"
     json5 "^1.0.1"
 
 loader-utils@^1.4.0:
@@ -11934,17 +11929,17 @@ resolve-from@^5.0.0:
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
   integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
 
-resolve-url-loader@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/resolve-url-loader/-/resolve-url-loader-3.1.4.tgz#3c16caebe0b9faea9c7cc252fa49d2353c412320"
-  integrity sha512-D3sQ04o0eeQEySLrcz4DsX3saHfsr8/N6tfhblxgZKXxMT2Louargg12oGNfoTRLV09GXhVUe5/qgA5vdgNigg==
+resolve-url-loader@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/resolve-url-loader/-/resolve-url-loader-3.1.5.tgz#1dce0847d4a2ef43c51f63c9fd30bf6dfbf26716"
+  integrity sha512-mgFMCmrV/tA4738EsFmPFE5/MaqSgUMe8LK971kVEKA/RrNVb7+VqFsg/qmKyythf34eyq476qIobP/gfFBGSQ==
   dependencies:
     adjust-sourcemap-loader "3.0.0"
     camelcase "5.3.1"
     compose-function "3.0.3"
     convert-source-map "1.7.0"
     es6-iterator "2.0.3"
-    loader-utils "1.2.3"
+    loader-utils "^1.2.3"
     postcss "7.0.36"
     rework "1.0.1"
     rework-visit "1.0.0"
@@ -12138,10 +12133,10 @@ sanitize-html@^2.7.3:
     parse-srcset "^1.0.2"
     postcss "^8.3.11"
 
-sass-loader@^10.1.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.1.1.tgz#4ddd5a3d7638e7949065dd6e9c7c04037f7e663d"
-  integrity sha512-W6gVDXAd5hR/WHsPicvZdjAWHBcEJ44UahgxcIE196fW2ong0ZHMPO1kZuI5q0VlvMQZh32gpv69PLWQm70qrw==
+sass-loader@^10.4.1:
+  version "10.4.1"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.4.1.tgz#bea4e173ddf512c9d7f53e9ec686186146807cbf"
+  integrity sha512-aX/iJZTTpNUNx/OSYzo2KsjIUQHqvWsAhhUijFjAPdZTEhstjZI9zTNvkTTwsx+uNUJqUwOw5gacxQMx4hJxGQ==
   dependencies:
     klona "^2.0.4"
     loader-utils "^2.0.0"
