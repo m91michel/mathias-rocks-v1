@@ -6954,23 +6954,23 @@ gatsby-plugin-sass@^6.4.0:
     resolve-url-loader "^3.1.5"
     sass-loader "^10.4.1"
 
-gatsby-plugin-sharp@^5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-5.3.2.tgz#b7b93f3ac1375aab0d7209ed989d0af4fd451d44"
-  integrity sha512-juMJFdVwB/b9Z6W5Crr1tizZ4aJkEUcgsKjQD6q4EnRc7RnRl9kGTYxOiAyxrVHmpb5KW/ixVA6YHukB6Pcn9g==
+gatsby-plugin-sharp@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-5.4.0.tgz#a70d694b7775c437046d7c19e4a2b7b6a2189952"
+  integrity sha512-QFGMP3skMyiLBx/1JGs296ZT0aWkzP2SsEp+5MA/Yg23T8Hrb/bBmxe+cAD0PoALQl9lmEA7NPawuh0q1HaGPw==
   dependencies:
-    "@babel/runtime" "^7.15.4"
+    "@babel/runtime" "^7.20.7"
     async "^3.2.4"
     bluebird "^3.7.2"
     debug "^4.3.4"
     filenamify "^4.3.0"
     fs-extra "^10.1.0"
-    gatsby-core-utils "^4.3.1"
-    gatsby-plugin-utils "^4.3.1"
+    gatsby-core-utils "^4.4.0"
+    gatsby-plugin-utils "^4.4.0"
     lodash "^4.17.21"
     probe-image-size "^7.2.3"
     semver "^7.3.8"
-    sharp "^0.31.2"
+    sharp "^0.31.3"
 
 gatsby-plugin-sitemap@^6.4.0:
   version "6.4.0"
@@ -12264,7 +12264,7 @@ shallow-compare@^1.2.2:
   resolved "https://registry.yarnpkg.com/shallow-compare/-/shallow-compare-1.2.2.tgz#fa4794627bf455a47c4f56881d8a6132d581ffdb"
   integrity sha512-LUMFi+RppPlrHzbqmFnINTrazo0lPNwhcgzuAXVVcfy/mqPDrQmHAyz5bvV0gDAuRFrk804V0HpQ6u9sZ0tBeg==
 
-sharp@^0.31.2, sharp@^0.31.3:
+sharp@^0.31.3:
   version "0.31.3"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.31.3.tgz#60227edc5c2be90e7378a210466c99aefcf32688"
   integrity sha512-XcR4+FCLBFKw1bdB+GEhnUNXNXvnt0tDo4WsBsraKymuo/IAuPuCBVAL2wIkUw2r/dwFW5Q5+g66Kwl2dgDFVg==
