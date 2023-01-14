@@ -68,6 +68,8 @@ I haven't made a final decision for this month because I want to have the flexib
 
 - I see a big potential in no-code. This will help me in my carrier and in my own business.
 
+Update: You can read what I did [here](/blog/2022-12-30-validating-more-ideas/).
+
 ## Follow me
 
 I hope you are as curious as I am about how these 4 months will go. You can follow the daily progress on [Twitter](https://twitter.com/m91michel) and my monthly summary here on [this blog](/blog/). I already archived one milestone by writing this article. But it’s still hard for me to write.🤷🏻‍♂️
