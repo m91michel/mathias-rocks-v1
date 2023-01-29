@@ -2,6 +2,7 @@ import React, { Fragment, ReactNode } from "react";
 import Navigation from "./navigation";
 import Footer from "./footer";
 import Tag from "../tag";
+import { Script } from "gatsby";
 
 type Props = {
   title?: string | null;
@@ -42,6 +43,7 @@ const Layout: React.FC<Props> = ({ title, subtitle, children, tags }) => {
         <section>
           <div className="container content">{children}</div>
         </section>
+        <Script defer data-domain="mathias.rocks" src="/js/script.js" />
       </main>
       <Footer />
     </Fragment>
