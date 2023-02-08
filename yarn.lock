@@ -6846,6 +6846,28 @@ gatsby-core-utils@^4.5.0, gatsby-core-utils@^4.6.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+gatsby-core-utils@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.6.0.tgz#43211a386e4115f720fc461ca7568f3315c25ecf"
+  integrity sha512-wXqWZWn6VuL2caWHCryt/pYyJJxJiv2JKyzXlJ1mLac0ZB24PP3Uc9NXPgFy8XzEtcL+23+9i9CiIiz+VNgxpQ==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    fastq "^1.13.0"
+    file-type "^16.5.3"
+    fs-extra "^11.1.0"
+    got "^11.8.5"
+    hash-wasm "^4.9.0"
+    import-from "^4.0.0"
+    lmdb "2.5.3"
+    lock "^1.1.0"
+    node-object-hash "^2.3.10"
+    proper-lockfile "^4.1.2"
+    resolve-from "^5.0.0"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-graphiql-explorer@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.5.0.tgz#1f53811de3ac28979164a639da1bc8b7a0a4990f"
@@ -6900,16 +6922,16 @@ gatsby-parcel-config@^1.5.0:
     "@parcel/transformer-js" "2.8.2"
     "@parcel/transformer-json" "2.8.2"
 
-gatsby-plugin-feed@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-5.5.0.tgz#ebddd6fa3b64b4403993949f94b65f8e21ff7efd"
-  integrity sha512-ZoPKxsByNJBmGSYXOFygAu2dzrLDpP0E5PEXM+aDI47KZSoRxFmKcX9MEwLCzVnj6Y/kIYZ3GZyeBkHoauya1g==
+gatsby-plugin-feed@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-5.6.0.tgz#d84f35389d33c59f05d0c37fcaacbb8281a42e68"
+  integrity sha512-cjubbcmdbf3WLQCU5yTL2Ax+vXegrMEkk8NfkEsj/n30YgdaD9WrocUvrpEeR+qNREBUU/oKi7lc9hpBPJy5fw==
   dependencies:
-    "@babel/runtime" "^7.20.7"
+    "@babel/runtime" "^7.20.13"
     "@hapi/joi" "^15.1.1"
     common-tags "^1.8.2"
     fs-extra "^11.1.0"
-    gatsby-plugin-utils "^4.5.0"
+    gatsby-plugin-utils "^4.6.0"
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
