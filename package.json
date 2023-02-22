@@ -35,7 +35,7 @@
     "gatsby-plugin-sitemap": "^6.7.0",
     "gatsby-plugin-typescript": "^5.5.0",
     "gatsby-plugin-typography": "^5.7.0",
-    "gatsby-remark-copy-linked-files": "^6.6.0",
+    "gatsby-remark-copy-linked-files": "^6.7.0",
     "gatsby-remark-external-links": "^0.0.4",
     "gatsby-remark-images": "^7.6.0",
     "gatsby-remark-responsive-iframe": "^6.7.0",
