@@ -6904,16 +6904,16 @@ gatsby-parcel-config@1.6.0:
     "@parcel/transformer-js" "2.8.3"
     "@parcel/transformer-json" "2.8.3"
 
-gatsby-plugin-feed@^5.6.0:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-5.6.0.tgz#d84f35389d33c59f05d0c37fcaacbb8281a42e68"
-  integrity sha512-cjubbcmdbf3WLQCU5yTL2Ax+vXegrMEkk8NfkEsj/n30YgdaD9WrocUvrpEeR+qNREBUU/oKi7lc9hpBPJy5fw==
+gatsby-plugin-feed@^5.7.0:
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-5.7.0.tgz#a7740ff493bff85f101259aa2bd1c605a327ce12"
+  integrity sha512-vCoAmztzXxqgzett/gBNoRGm8cUZvSNGOZ5A/hWkZKho5l+magZ449YeZfZtxupw2NGvOR/UE1R4oR1lkqy8Jg==
   dependencies:
     "@babel/runtime" "^7.20.13"
     "@hapi/joi" "^15.1.1"
     common-tags "^1.8.2"
     fs-extra "^11.1.0"
-    gatsby-plugin-utils "^4.6.0"
+    gatsby-plugin-utils "^4.7.0"
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
