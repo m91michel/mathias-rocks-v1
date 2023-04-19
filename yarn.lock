@@ -6863,28 +6863,6 @@ gatsby-core-utils@^4.7.0, gatsby-core-utils@^4.8.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.8.0.tgz#b9baac9f9434d0c789e470e8caf8003edf91d7ac"
-  integrity sha512-C2uOZBd9j6AYIyiB+DdxRtbQgAa3kMDRsKR5eCwALp0Bkg3W5I/YiXhSF7zQxVckaqNXzXvmedJESKCJNIvO7w==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    fastq "^1.13.0"
-    file-type "^16.5.3"
-    fs-extra "^11.1.0"
-    got "^11.8.5"
-    hash-wasm "^4.9.0"
-    import-from "^4.0.0"
-    lmdb "2.5.3"
-    lock "^1.1.0"
-    node-object-hash "^2.3.10"
-    proper-lockfile "^4.1.2"
-    resolve-from "^5.0.0"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
 gatsby-graphiql-explorer@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.7.0.tgz#ad40e0a5d27e98ae4c54736db05cbddf61f7b39f"
@@ -6952,10 +6930,10 @@ gatsby-plugin-feed@^5.8.0:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
-gatsby-plugin-google-analytics@^5.7.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.7.0.tgz#d6f6f7f72f3a8df60e00aa4d9652c76afb881164"
-  integrity sha512-PcRMyFR4UArAzIPT5KcZ2PG0ylFChf8j0m6e11njchET1+VV7Z05NKt+o8DOwrcX3kbdl5T7SZT+k6IZ7znECg==
+gatsby-plugin-google-analytics@^5.9.0:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.9.0.tgz#617679f1722d56d6a83a8eecf502cd2ea5090c75"
+  integrity sha512-1jHBEveDRtgh/QzbhHdgMa1PT43gxCf/r4NIhjIL1DB7BGi4ssBL67SOXXF1anPS4WlqoAEHbhavHLgdrNtc/w==
   dependencies:
     "@babel/runtime" "^7.20.13"
     minimatch "^3.1.2"
