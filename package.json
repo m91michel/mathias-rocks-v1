@@ -68,7 +68,7 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.5",
     "@types/jest": "^29.5.1",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
