@@ -48,7 +48,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.8.0",
+    "react-icons": "^4.9.0",
     "react-typography": "^0.16.23",
     "tailwindcss": "^3.3.2",
     "tslint": "^6.1.3",
