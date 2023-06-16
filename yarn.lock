@@ -7041,10 +7041,10 @@ gatsby-plugin-postcss@^6.11.0:
     "@babel/runtime" "^7.20.13"
     postcss-loader "^7.3.2"
 
-gatsby-plugin-react-helmet@^6.10.0:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-6.10.0.tgz#8d827db570e36042f4aba6a2bbaf804aaaec91a6"
-  integrity sha512-js/XJdx1wGA6ht306PXV5mhk+traQ7rOcoLBzcHAiIC6nS+7M4AuFDu+Sb4fLXd8S666UBoCA+b0P5CSP27ntQ==
+gatsby-plugin-react-helmet@^6.11.0:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-6.11.0.tgz#0d8a430820835b05317a5c5e81ab96b9dbb14a4b"
+  integrity sha512-LVjsRAaDEywv48ob+WQj7ljTVl5NXdJSu0ZrqXVW2Vzpwwoo5dfHvDPZJiMcxWMdilUOfVfcJcfGa20cp7S5xg==
   dependencies:
     "@babel/runtime" "^7.20.13"
 
