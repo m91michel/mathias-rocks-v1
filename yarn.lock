@@ -6866,28 +6866,6 @@ gatsby-core-utils@^4.10.0, gatsby-core-utils@^4.11.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.11.0.tgz#16d300129d0d143a79ad32816b8837630d7e7fae"
-  integrity sha512-W7pfrKgBchdk19g802IuPkCA2iJ69lRR1GzkfYjB8d1TuIQqf0l1z0lv7e+2kQqO+uQ5Yt3sGMMN2qMYMWfLXg==
-  dependencies:
-    "@babel/runtime" "^7.20.13"
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    fastq "^1.15.0"
-    file-type "^16.5.4"
-    fs-extra "^11.1.1"
-    got "^11.8.6"
-    hash-wasm "^4.9.0"
-    import-from "^4.0.0"
-    lmdb "2.5.3"
-    lock "^1.1.0"
-    node-object-hash "^2.3.10"
-    proper-lockfile "^4.1.2"
-    resolve-from "^5.0.0"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
 gatsby-graphiql-explorer@^3.10.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.10.0.tgz#09936b478d8b572c758c55d18ef78ceaf76df7b7"
@@ -7001,14 +6979,14 @@ gatsby-plugin-markdown-pages@^1.0.3:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-offline@^6.10.0:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-6.10.0.tgz#cfc8e9860cb87bea7a79eb7453fb092d9f380b8e"
-  integrity sha512-diuLraIKvGjtsRraoznj2qZYqYnH1PJFCF0sWKClUp5rXM5mYwRKW+MMvFi4zrYPTcNNd4eIqsdoszBxOhvTSA==
+gatsby-plugin-offline@^6.11.0:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-6.11.0.tgz#5165b76a4ea0a23a2093e2b9fe96c7e94c002dbf"
+  integrity sha512-QGdho+DwtdlPm258PsdqR9L7vH4RKEfviBkSeuRIU2zkODS0WbdGJwbKTDUnamxaYZUmdLDSBE4M8KOIT0GpBg==
   dependencies:
     "@babel/runtime" "^7.20.13"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^4.10.0"
+    gatsby-core-utils "^4.11.0"
     glob "^7.2.3"
     idb-keyval "^3.2.0"
     lodash "^4.17.21"
