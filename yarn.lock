@@ -3759,9 +3759,7 @@ babel-extract-comments@^1.0.0:
     babylon "^6.18.0"
 
 babel-jest@^29.6.3:
-  version "29.6.3"
-  resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-29.6.3.tgz#e62f6c38f3ec8c147244168ee18ef0b919f10348"
-  integrity sha512-1Ne93zZZEy5XmTa4Q+W5+zxBrDpExX8E3iy+xJJ+24ewlfo/T3qHfQJCzi/MMVFmBQDNxtRR/Gfd2dwb/0yrQw==
+  version "29.6.4"
   dependencies:
     "@jest/transform" "^29.6.3"
     "@types/babel__core" "^7.1.14"
