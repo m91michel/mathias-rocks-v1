@@ -5,7 +5,8 @@
     {
       "matchCurrentVersion": ">= 1.0.0",
       "matchUpdateTypes": ["minor", "patch"],
-      "labels": ["merge"]
+      "labels": ["merge"],
+      "automerge": true
     },
     { "automerge": true, "extends": ["packages:test"], "labels": ["merge"] }
   ]
