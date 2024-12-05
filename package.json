@@ -70,7 +70,7 @@
   "devDependencies": {
     "@babel/preset-typescript": "^7.22.11",
     "@types/jest": "^29.5.4",
-    "@types/react-test-renderer": "^18.0.0",
+    "@types/react-test-renderer": "^19.0.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "babel-jest": "^29.6.4",
